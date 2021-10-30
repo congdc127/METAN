@@ -9,13 +9,13 @@ const dataAbout = [
         id: '2',
         image: '/img/play game.png',
         title: 'Play2Earn',
-        desc: 'Lead your Heroes into action packed battles and win to earn rewards including HE token and valuable NFT assets.'
+        desc: 'Lead your Heroes into action packed battles and win to earn rewards including WARZ token and valuable NFT assets.'
     },
     {
         id: '3',
         image: '/img/play game.png',
         title: 'GameFi',
-        desc: 'Trade your NFTs on a full-stack Marketplace or utilize those assets in H&E ecosystem to maximize profits through DeFi features such as Staking, Lending & Borrowing, NFT Collateral.'
+        desc: 'Trade your NFTs on a full-stack Marketplace or utilize those assets in WARZ ecosystem to maximize profits through DeFi features such as Staking, Lending & Borrowing, NFT Collateral.'
     },
 ];
 

@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="gap-3"></div>
             <div className="container-lg py-4">
                 <div className="row justify-content-center">
-                    <div className="col-3 d-none d-lg-block mb-3"><img src="https://heroesempires.com/static/media/logo.824444fe.png" alt="footer logo" width="150" /></div>
+                    <div className="col-3 d-none d-lg-block mb-3"><img src="/img/logo.png" alt="footer logo" width="150" /></div>
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <h4 className="text-brand">Links</h4>
                         <ul className="footer-nav">
@@ -115,7 +115,7 @@ export default function Footer() {
             <div className="container">
                 <hr />
                 <div className="row small">
-                    <div className="col-md-6"><div className="text-center text-md-left">©2021 Heroes &amp; Empires. All rights reserved</div></div>
+                    <div className="col-md-6"><div className="text-center text-md-left">©2021 WAR ZOMBIE. All rights reserved</div></div>
                     <div className="col-md-6">
                         <ul className="nav justify-content-center justify-content-md-end">
                             <li className="nav-item"><a className="nav-link" href="">Terms</a></li>
