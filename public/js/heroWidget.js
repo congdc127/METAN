@@ -7,7 +7,7 @@ export default function spineWidget(heroId, canvasRef) {
     var skeleton, state, bounds;
     var skeletonRenderer;
 
-	var skelName = `C${heroId}heroes`;
+	var skelName = `heroes${heroId}`;
 	var animName = "Idle";
     console.log(`spineWidget: ` + heroId);
 
