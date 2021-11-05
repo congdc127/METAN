@@ -350,9 +350,6 @@ img {
   background: url("/images/BackgroundShip.png") no-repeat center top;
   background-size: cover;
 }
-.block-ship .block-content {
-  padding: 83px;
-}
 .block-ship .ship-meta div {
   transition: all 0.3s linear;
 }
@@ -395,7 +392,7 @@ img {
 }
 .block-ship .ship-meta-right.content {
   padding: 40px 20px;
-  background: #3933ff40;
+  background: #66667540;
   position: relative;
   width: 80%;
   max-width: 100%;
@@ -425,7 +422,7 @@ img {
 }
 .block-ship .ship-meta-right .img img {
   width: 40%;
-  padding: 0 10px;
+  padding: 10px 30px;
 }
 .block-ship .ship-line-name img {
   width: 30px;
@@ -472,7 +469,7 @@ img {
   opacity: 0;
 }
 .block-ship .ship-item-slide .shipAva {
-  transform: scale(0.8);
+  transform: scale(2.2);
   padding: 10px !important;
   position: relative;
   z-index: 2;
@@ -486,6 +483,7 @@ img {
 .block-ship .ship-item-slide.active .shipAva:hover {
   background: url("/images/bg-ship-blue.png") no-repeat center;
   background-size: cover;
+  transform: scale(2.2);
 }
 .block-ship .ship-item-slide.active .lightship {
   transition: all 0.5s;
@@ -497,9 +495,10 @@ img {
   opacity: 1;
   transition: all 0.5s;
   transform: translateY(0);
+  transform: scale(2.2);
 }
 .block-ship .ship-item-slide.active .shipAva {
-  transform: scale(1);
+  transform: scale(2.5);
   padding: 10px;
 }
 .block-ship .swiper {
@@ -1024,4 +1023,84 @@ img {
 
 video {
   width: 100%;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1520px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .block-ship {
+    padding-bottom: 0;
+  }
+  .block-ship .block-content {
+    padding: 0;
+  }
+  .block-ship .ship-meta-right.content {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    margin-bottom: 40px;
+  }
+  .block-ship .ship-sub {
+    min-height: auto;
+  }
+  .block-ship .ship-meta-right .img img {
+    width: 20%;
+    padding: 10px;
+  }
+  .block-ship .ship-slide {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    padding: 50px 0;
+  }
+
+  .segment-heading {
+    font-size: 28px;
+    padding-bottom: 20px;
+    margin-left: 0;
+  }
+  .text-secondary {
+    text-align: justify;
+  }
+  .block-slider {
+    height: auto;
+  }
+
+  .about-segment {
+    padding-top: 50px;
+  }
+
+  .block-roadmap .roadmap-ul {
+    margin-top: 30px;
+    display: block;
+  }
+  .block-roadmap .roadmap-ul .roadmap-item:after {
+    width: 100%;
+  }
+
+  .block-invested .item {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bounce {
+    display: none;
+  }
+  .block-ship .ship-meta-right {
+    padding-top: 30px;
+  }
+  .block-ship .ship-item-slide .shipAva {
+    transform: scale(1.5);
+  }
+  .block-ship .ship-item-slide.active .shipAva {
+    transform: scale(1.7);
+  }
 }

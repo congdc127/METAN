@@ -12,7 +12,7 @@ export default function OurTeams() {
           <Col md={6}>
             <h2 className="segment-heading">Roadmap</h2>
           </Col>
-          <Col md={6} className="text-end">
+          <Col md={6} className="text-end d-none d-md-block">
             <img
               src="/img/roadmap-up.webp"
               className="bounce"

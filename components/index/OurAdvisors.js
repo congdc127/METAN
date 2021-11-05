@@ -11,7 +11,7 @@ export default function OurTeams() {
                 <Row className="justify-content-center">
                     <h2 className="segment-heading">Our advisors</h2>
                     {dataAdvisors.map((item, index) => (
-                        <Col md={3} sm={3} xs={2}>
+                        <Col md={3} sm={4} xs={6}>
                             <div className="item text-center" key={index}>
                                 <div className="image"><img src={item.image} /></div>
                                 <div className="content">

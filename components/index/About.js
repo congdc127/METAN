@@ -24,7 +24,7 @@ export default function About() {
                 </Row>
                 <Row className="justify-content-center">
                     {dataAbout.map((item, index) => (
-                         <Col sm={4} className="bottom-space">
+                         <Col md={4} className="bottom-space">
                             <div className="card translate-up h-100 text-center member-card">
                                 <div className="card-body">
                                     <img src={item.image} />

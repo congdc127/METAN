@@ -10,7 +10,7 @@ export default function OurTeams() {
                 <Row>
                     <h2 className="segment-heading">Invested & Supported by</h2>
                     {dataInvested.map((item, index) => (
-                        <Col sm={2} xs={2}>
+                        <Col md={3} sm={3} xs={4}>
                             <div className="item text-center" key={index}>
                                 <div className="image"><img className="scale-up" src={item.image} /></div>
                             </div>

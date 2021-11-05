@@ -89,7 +89,7 @@ export default function HeroDetail() {
                             <div className="wrap-slide-ship">
                                 <Swiper 
                                     ref={heroSlideRef} spaceBetween={16} slidesPerView={10} 
-                                    loop={true}
+                                    loop={false}
                                     breakpoints={{
                                         "0": {
                                             "slidesPerView": 2,
@@ -108,7 +108,7 @@ export default function HeroDetail() {
                                             "spaceBetween": 15
                                         },
                                         "1200": {
-                                            "slidesPerView": 8,
+                                            "slidesPerView": 10,
                                             "spaceBetween": 15
                                         }
                                     }}
