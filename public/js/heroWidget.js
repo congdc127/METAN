@@ -7,8 +7,8 @@ export default function spineWidget(heroId, canvasRef) {
     var skeleton, state, bounds;
     var skeletonRenderer;
 
-	var skelName = "spineboy";
-	var animName = "walk";
+	var skelName = "C2heroes";
+	var animName = "Idle";
     console.log(`spineWidget: ` + heroId);
 
     function init() {
@@ -23,7 +23,7 @@ export default function spineWidget(heroId, canvasRef) {
 
         skeletonRenderer.debugRendering = false;
         // enable the triangle renderer, supports meshes, but may produce artifacts in some browsers
-        skeletonRenderer.triangleRendering = false;
+        skeletonRenderer.triangleRendering = true;
 
         assetManager = new spine.AssetManager(`img/hero/hero${heroId}/`);
         
@@ -150,6 +150,7 @@ export default function spineWidget(heroId, canvasRef) {
         var centerY = bounds.offset.y + bounds.size.y / 2;
         var scaleX = bounds.size.x / canvas.width;
         var scaleY = bounds.size.y / canvas.height;
+        var zoom = 0.5;
         var scale = Math.max(scaleX, scaleY) * 1.1;
         if (scale < 1) scale = 1;
         var width = canvas.width * scale;
