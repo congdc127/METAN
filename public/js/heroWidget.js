@@ -150,16 +150,15 @@ export default function spineWidget(heroId, canvasRef) {
         var centerY = bounds.offset.y + bounds.size.y / 2;
         var scaleX = bounds.size.x / canvas.width;
         var scaleY = bounds.size.y / canvas.height;
-        var zoom = 0.5;
         var scale = Math.max(scaleX, scaleY) * 1.1;
-        if (scale < 1) scale = 1;
+        if (scale < 1) scale = 1.5;
         var width = canvas.width * scale;
         var height = canvas.height * scale;
 
         context.setTransform(1, 0, 0, 1, 0, 0);
         context.scale(1 / scale, 1 / scale);
         context.translate(-centerX, -centerY);
-        context.translate(width / 2, height / 2);
+        context.translate(width / 2, height / 1.2);
     }
 
     (function () {
