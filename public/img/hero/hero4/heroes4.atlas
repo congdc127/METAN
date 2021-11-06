@@ -1,87 +1,78 @@
 heroes4.png
-size:512,256
+size:1024,512
 filter:Linear,Linear
 pma:true
 1 1 copy
-bounds:233,22,40,134
+bounds:163,151,40,110
+offsets:1,1,43,112
 rotate:90
 1 2 copy
-bounds:265,214,40,142
-rotate:90
+bounds:527,16,28,137
+offsets:0,0,29,137
+1 3 copy
+bounds:563,66,32,195
+offsets:0,0,33,195
+1 4 copy
+bounds:964,309,36,200
+1 5 copy
+bounds:364,10,37,94
+offsets:1,1,39,96
 2 1 copy
-bounds:109,3,24,90
+bounds:76,2,32,66
+offsets:2,1,36,68
 rotate:90
-3
-bounds:156,192,62,107
+2 2 copy
+bounds:2,2,32,72
+offsets:0,0,33,72
+rotate:90
+3 1
+bounds:557,25,39,137
+rotate:90
+3 2 copy
+bounds:447,4,78,149
+3 3
+bounds:2,121,70,159
 rotate:90
 4 1
-bounds:395,152,64,60
+bounds:447,155,106,114
+rotate:90
 4 2
-bounds:55,20,21,29
-offsets:1,1,24,31
+bounds:218,109,40,38
+offsets:1,1,42,40
 rotate:90
 4 3
-bounds:217,64,89,74
-rotate:90
+bounds:318,106,127,155
 4 4
-bounds:305,165,47,42
-offsets:1,1,49,44
-rotate:90
-4 5
-bounds:293,90,100,63
-4 6
-bounds:86,24,21,3
-offsets:1,1,23,5
-4 7
-bounds:86,36,23,5
-offsets:1,1,25,7
-4 8
-bounds:86,29,22,5
-offsets:1,1,24,7
+bounds:163,109,53,40
 5 1 copy
-bounds:156,160,30,58
-rotate:90
-5 2
-bounds:201,2,25,23
-offsets:1,1,27,25
+bounds:275,110,38,81
+5 2 copy
+bounds:403,15,38,89
+offsets:0,1,38,90
+5 3
+bounds:311,12,92,51
+offsets:1,1,94,53
 rotate:90
 6 1
-bounds:139,59,76,94
+bounds:2,193,68,314
+offsets:1,2,70,317
+rotate:90
 6 2
-bounds:369,11,61,77
-6 3
-bounds:55,155,99,99
-6 4
-bounds:264,155,35,39
-offsets:1,1,37,41
+bounds:609,204,116,334
+offsets:4,6,124,352
 rotate:90
-6 5
-bounds:139,29,53,28
-offsets:1,1,55,30
-6 6
-bounds:216,155,46,35
-offsets:1,2,48,38
-6 7
-bounds:194,29,28,37
-offsets:1,1,30,39
-rotate:90
-7 1
-bounds:30,5,24,11
-offsets:1,1,26,13
-7 1 2
-bounds:2,3,26,13
-offsets:1,2,28,16
 7 2
-bounds:72,5,13,13
-offsets:1,1,15,15
-7 2 2
-bounds:56,3,14,15
-offsets:1,1,16,17
+bounds:2,36,68,307
+offsets:1,1,70,309
+rotate:90
 Layer 1
-bounds:2,18,236,51
-offsets:1,1,238,53
+bounds:945,28,279,61
+offsets:1,1,281,63
 rotate:90
-fx-2
-bounds:55,43,110,82
-offsets:12,22,128,128
+fx- chem 1
+bounds:609,322,187,353
+offsets:2,6,190,360
 rotate:90
+fx- chem 2
+bounds:2,263,605,246
+offsets:2,1,608,249
