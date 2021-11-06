@@ -7,6 +7,7 @@ import spineWidget from '../../public/js/heroWidget';
 import heroData from '../../public/data/heroData';
 
 const heroEvutionArr = [...Array(5)];
+const heroActiveArr = [...Array(1)];
 
 const HeroItemSlide = ({ hero, heroSlideRef, index }) => {
 
@@ -26,7 +27,7 @@ const HeroItemSlide = ({ hero, heroSlideRef, index }) => {
             className={index === 0 ? 'ship-item-slide active' : 'ship-item-slide'}
             onClick={() => {resetHeroSlide(); itemSlideRef.current.classList.add('active'); }}
         >
-            <img className="shipAva"src={`/img/hero/evolution/hero_${hero.heroId}.png`} />
+            <img className="shipAva"src={`/img/Heroes/hero${hero.heroId}.png`} />
         </div>
     );
 };
@@ -35,8 +36,12 @@ const HeroEvution = ({ hero, index }) => (
     index = index+1,
     <img src={`/img/hero/hero${hero.heroId}/others/${hero.heroId}${index}.png`} />
 );
+const HeroActive = ({ hero, index }) => (
+    index = index+1,
+    <img src={`/img/Heroes/hero${hero.heroId}.png`} className="bounce" />
+);
 
-export default function HeroDetail() {
+export default function Hero() {
     const heroSlideRef = useRef(null);
     const heroSpineRef = useRef(null);
 
@@ -47,7 +52,7 @@ export default function HeroDetail() {
     });
 
     return (
-        <div className="block block-ship">
+        <div className="block block-ship hero">
             <div className="block-wrapper">
                 <Container>
                     <div className="block-header">
@@ -69,7 +74,9 @@ export default function HeroDetail() {
                                     <div className="ship-meta-left">
                                         <div className="ship-spine">
                                             <div className="hero-wrap">
-                                                <canvas id="hero-canvas"ref={heroSpineRef} ></canvas>
+                                                {heroActiveArr.map((number, index) => (
+                                                    <HeroActive key={index} hero={hero} index={index + 1} ></HeroActive>
+                                                ))} 
                                             </div>
                                         </div>
                                     </div>
