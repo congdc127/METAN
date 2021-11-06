@@ -1,0 +1,60 @@
+C1Dalton.png
+size:916,396
+filter:Linear,Linear
+pma:true
+1
+bounds:760,49,40,85
+2 1
+bounds:697,2,61,132
+2 2
+bounds:416,7,98,153
+2 3 2
+bounds:647,204,190,134
+rotate:90
+2 3 4
+bounds:783,242,94,67
+2 3 5
+bounds:344,5,155,70
+rotate:90
+2 4
+bounds:760,5,50,42
+2 5
+bounds:205,113,35,28
+rotate:90
+3
+bounds:458,189,187,205
+4 1
+bounds:2,4,107,224
+rotate:90
+4 2
+bounds:329,162,127,232
+4 3
+bounds:697,136,79,66
+4 4
+bounds:812,29,64,62
+rotate:90
+4 5
+bounds:228,11,58,100
+4 6
+bounds:288,12,136,54
+rotate:90
+4 7
+bounds:783,165,75,93
+rotate:90
+5
+bounds:205,150,122,244
+6
+bounds:783,311,130,83
+7 1
+bounds:812,95,70,68
+7 2
+bounds:516,2,185,179
+rotate:90
+7 3
+bounds:235,131,37,17
+7 4
+bounds:67,114,280,136
+rotate:90
+Layer 1
+bounds:2,113,281,63
+rotate:90

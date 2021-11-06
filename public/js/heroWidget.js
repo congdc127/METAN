@@ -16,15 +16,12 @@ export default function spineWidget(heroId, canvasRef) {
 		canvas.height = window.innerHeight;
 		context = canvas.getContext("2d");
         canvas.getContext("2d").drawImage(canvas, 0, 0);
-        console.log(context);
-
 
 		skeletonRenderer = new spine.SkeletonRenderer(context);
 		// enable debug rendering
 		skeletonRenderer.debugRendering = false;
 		// enable the triangle renderer, supports meshes, but may produce artifacts in some browsers
         skeletonRenderer.triangleRendering = true;
-        console.log(skeletonRenderer);
 
 		assetManager = new spine.AssetManager(`img/hero/hero${heroId}/`);
 
@@ -128,7 +125,7 @@ export default function spineWidget(heroId, canvasRef) {
 
 		requestAnimationFrame(render);
 	}
-
+		
 	function resize() {
 		var w = canvas.clientWidth;
 		var h = canvas.clientHeight;

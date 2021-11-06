@@ -8679,6 +8679,7 @@ var spine = (() => {
 	// spine-canvas/src/SkeletonRenderer.ts
 	var _SkeletonRenderer = class {
 	  constructor(context) {
+		  console.log(context);
 		this.triangleRendering = false;
 		this.debugRendering = false;
 		this.vertices = Utils.newFloatArray(8 * 1024);
