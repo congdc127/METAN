@@ -345,12 +345,17 @@ img {
   border-radius: 50%;
 }
 .hero-wrap {
+  text-align: center;
   position: absolute;
   width: 90%;
   height: 90%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.hero-wrap .bounce {
+  height: 90%;
+  padding-top: 5%;
 }
 
 .block-ship {
