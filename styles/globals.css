@@ -81,7 +81,7 @@ img {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-30px);
   }
   100% {
     transform: translateY(0);
@@ -375,17 +375,17 @@ img {
 }
 .block-ship .ship-meta .ship-meta-left {
   min-height: 370px;
-  height: 370px;
+  height: 100%;
 }
 .block-ship .ship-spine {
   margin: auto;
-  background: #000;
-  border-radius: 50%;
+  background: transparent;
   box-shadow: 0 3px 12px rgb(38 68 152 / 10%);
   opacity: 1;
   position: relative;
-  width: 370px;
+  width: 100%;
   height: 100%;
+  border: 2px solid #00339930;
 }
 .block-ship .ship-spine::before {
   content: "";
@@ -1072,12 +1072,7 @@ video {
 @media (max-width: 1200px) {
   .block-ship .ship-meta-right.content {
     width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-  }
-  .block-ship .ship-meta-right .img img {
-    width: 20%;
-    padding: 15px 60px;
+    height: 100%;
   }
 }
 
@@ -1144,6 +1139,13 @@ video {
     height: auto;
     padding: 15px;
     margin-bottom: 40px;
+  }
+
+  .block-ship .ship-meta-right .img {
+    margin-top: 30px;
+  }
+  .block-ship .ship-meta-right .img img {
+    width: 15%;
   }
   .block-ship .ship-sub {
     min-height: auto;
