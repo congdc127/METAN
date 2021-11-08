@@ -1,5 +1,7 @@
 import Slider from '../components/index/Slider';
 import About from '../components/index/About';
+import Token from '../components/index/Token';
+import Play from '../components/index/Play';
 import News from '../components/index/News';
 import Roadmaps from '../components/index/Roadmaps';
 import Ourteams from '../components/index/Ourteams';
@@ -15,6 +17,8 @@ export default function Home() {
         <div className="home-content">
             <Slider></Slider>
             <About></About>
+            <Play></Play>
+            <Token></Token>
             <Hero></Hero>
             <Hero2></Hero2>
             <News></News>
