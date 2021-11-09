@@ -392,8 +392,8 @@ img {
 .hero-wrap {
   text-align: center;
   position: absolute;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -405,9 +405,8 @@ img {
 
 .block-ship {
   display: none;
-  z-index: 210;
   position: relative;
-  background: url("/images/BackgroundShip.png") no-repeat center top;
+  background: url("/img/bg-token.jpg") no-repeat center;
   background-size: cover;
 }
 .block-ship .ship-meta div {
@@ -425,12 +424,12 @@ img {
 .block-ship .ship-spine {
   margin: auto;
   background: transparent;
-  box-shadow: 0 3px 12px rgb(38 68 152 / 10%);
+  /* box-shadow: 0 3px 12px rgb(38 68 152 / 10%); */
   opacity: 1;
   position: relative;
   width: 100%;
   height: 100%;
-  border: 2px solid #00339930;
+  /* border: 2px solid #00339930; */
 }
 .block-ship .ship-spine::before {
   content: "";
@@ -452,11 +451,12 @@ img {
 }
 .block-ship .ship-meta-right.content {
   padding: 40px 20px;
-  background: #66667540;
   position: relative;
-  width: 80%;
   max-width: 100%;
-  height: 450px;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgb(38 68 152 / 100%);
   overflow-y: hidden;
 }
 .block-ship .ship-meta-right.content::before {
@@ -481,8 +481,11 @@ img {
   width: 100%;
 }
 .block-ship .ship-meta-right .img img {
-  width: 34%;
-  padding: 25px 45px;
+  padding: 15px;
+  background: #344765;
+  margin: 5px;
+  border: 3px solid #fff;
+  border-radius: 10px;
 }
 .hero {
   display: flow-root;
@@ -525,8 +528,9 @@ img {
   text-align: center;
   height: 130px;
   overflow: hidden;
-  /* background: #00339930; */
-  border: 2px solid #00339930;
+  background: #08416e;
+  border: 2px solid #52d5f1;
+  border-radius: 8px;
 }
 .block-ship .ship-item-slide img {
   width: 75%;
@@ -547,8 +551,6 @@ img {
   padding: 10px !important;
   position: relative;
   z-index: 2;
-  filter: contrast(0.5);
-  opacity: 0.7;
   transition: all 0.3s;
   background: url("/images/bg-ship.png") no-repeat center;
   background-size: cover;
@@ -560,7 +562,8 @@ img {
   transform: scale(1.3);
 }
 .block-ship .ship-item-slide.active {
-  background: #0089ea52;
+  background: #7f451f;
+  border-color: #eddea5;
 }
 .block-ship .ship-item-slide.active .lightship {
   transition: all 0.5s;

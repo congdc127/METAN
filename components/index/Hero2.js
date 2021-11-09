@@ -6,7 +6,7 @@ import spineWidget from '../../public/js/heroWidget';
 
 import heroData from '../../public/data/heroData';
 
-const heroEvutionArr = [...Array(5)];
+const heroEvutionArr = [...Array(4)];
 const heroActiveArr = [...Array(1)];
 
 const HeroItemSlide = ({ hero, heroSlideRef, index }) => {
@@ -61,19 +61,23 @@ export default function Hero() {
                     <div className="block-content">
                         <div className="ship-meta">
                             <Row>
-                                <Col xl={4}>
-                                    <div className="ship-meta-right content">
-                                        <div className="ship-line-name">
-                                            <span className="name-first">{hero.nameFirst}</span>
-                                            <span className="name-last">{hero.nameLast}</span>
+                                <Col xl={1}>
+                                    <div className="ship-meta-right">
+                                        <div className="img text-center">
+                                            {heroEvutionArr.map((number, index) => (
+                                                <HeroEvution key={index} hero={hero} index={index + 1} ></HeroEvution>
+                                            ))} 
                                         </div>
-                                        <div className="ship-sub">{hero.heroDesc}</div>
                                     </div>
                                 </Col>
                                 <Col xl={4}>
                                     <div className="ship-meta-left">
                                         <div className="ship-spine">
                                             <div className="hero-wrap">
+                                                <div className="ship-line-name">
+                                                    <span className="name-first">{hero.nameFirst}</span>
+                                                    <span className="name-last">{hero.nameLast}</span>
+                                                </div>
                                                 {heroActiveArr.map((number, index) => (
                                                     <HeroActive key={index} hero={hero} index={index + 1} ></HeroActive>
                                                 ))} 
@@ -81,13 +85,18 @@ export default function Hero() {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col xl={4}>
+                                <Col xl={1}>
                                     <div className="ship-meta-right">
                                         <div className="img text-center">
                                             {heroEvutionArr.map((number, index) => (
                                                 <HeroEvution key={index} hero={hero} index={index + 1} ></HeroEvution>
                                             ))} 
                                         </div>
+                                    </div>
+                                </Col>
+                                <Col xl={6}>
+                                    <div className="ship-meta-right content">
+                                        <div className="ship-sub">{hero.heroDesc}</div>
                                     </div>
                                 </Col>
                             </Row>
