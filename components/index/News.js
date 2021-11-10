@@ -27,14 +27,21 @@ export default function News() {
                 <div className="block-header">
                     <h2 className="segment-heading">News Update</h2>
                 </div>
-                <Carousel responsive={responsive} infinite={true} loop={true}>
-                    {dataNews.map((item, index) => (
-                        <div className="item text-center" key={index}>
-                            <div className="image"><img src={item.image} /></div>
-                            <div className="content">{ item.desc}</div>
-                        </div>
-                    ))}
-                </Carousel>
+                <Row>
+                    <Col lg={3}>
+                        <div className="img"><img src="/img/witch.png" className="bounce" /></div>
+                    </Col>
+                    <Col lg={9} className="align-items-center">
+                        <Carousel responsive={responsive} infinite={true} loop={true}>
+                            {dataNews.map((item, index) => (
+                                <div className="item text-center" key={index}>
+                                    <div className="image"><img src={item.image} /></div>
+                                    <div className="content">{ item.desc}</div>
+                                </div>
+                            ))}
+                        </Carousel>
+                    </Col>
+                </Row>
             </Container>
         </div>
     );

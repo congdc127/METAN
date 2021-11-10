@@ -125,6 +125,8 @@ img {
 
 .block {
   padding: 100px 0;
+  background: url("/img/bg-token.jpg") no-repeat center;
+  background-size: cover;
 }
 .box-header.stuck {
   height: 90px;
@@ -481,7 +483,7 @@ img {
   width: 100%;
 }
 .block-ship .ship-meta-right .img img {
-  padding: 15px;
+  padding: 25px;
   background: #344765;
   margin: 5px;
   border: 3px solid #fff;
@@ -609,6 +611,9 @@ img {
   border-bottom: 15px solid transparent;
 }
 
+.block-news .react-multi-carousel-list {
+  height: 100%;
+}
 .block-news .item {
   background: rgba(18, 12, 2, 0.6666666666666666);
   margin: 0 10px;
@@ -1213,6 +1218,34 @@ video {
     text-align: justify;
   }
 
+  .block-play::before,
+  .block-play::after {
+    display: none;
+  }
+  .block-play .text {
+    margin: 0 0 30px 0;
+  }
+  .block-play .item {
+    background: url("/img/bg-blue.png") no-repeat center;
+    padding: 15px;
+    width: 100%;
+    left: -13px;
+  }
+  .block-play .item .img {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .block-play .item .item-body {
+    padding: 10px 15px;
+  }
+  .block-play .react-multi-carousel-dot-list {
+    bottom: 0;
+  }
+  .block-play .react-multi-carousel-dot button {
+    width: 50px;
+  }
+
   .block-ship .ship-meta-right .img img {
     padding: 15px 30px;
   }
@@ -1238,14 +1271,20 @@ video {
     display: inline-block;
     width: 80%;
   }
+  .block-ship .ship-slide {
+    padding: 0;
+  }
   .block-ship .ship-meta-right {
-    padding-top: 30px;
+    padding: 0 0 30px 0;
   }
   .block-ship .ship-item-slide .shipAva {
     transform: scale(1.5);
   }
   .block-ship .ship-item-slide.active .shipAva {
     transform: scale(1.7);
+  }
+  .block-ship .ship-meta-right.content {
+    margin: 0;
   }
   .block-ship .ship-meta-right .img img {
     padding: 10px;

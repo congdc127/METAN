@@ -7,6 +7,7 @@ import spineWidget from '../../public/js/heroWidget';
 import heroData from '../../public/data/heroData';
 
 const heroEvutionArr = [...Array(4)];
+const heroEvutionArr2 = [...Array(4)];
 const heroActiveArr = [...Array(1)];
 
 const HeroItemSlide = ({ hero, heroSlideRef, index }) => {
@@ -34,6 +35,10 @@ const HeroItemSlide = ({ hero, heroSlideRef, index }) => {
 
 const HeroEvution = ({ hero, index }) => (
     index = index+1,
+    <img src={`/img/hero/hero${hero.heroId}/others/${hero.heroId}${index}.png`} />
+);
+const HeroEvution2 = ({ hero, index }) => (
+    index = index + 1,
     <img src={`/img/hero/hero${hero.heroId}/others/${hero.heroId}${index}.png`} />
 );
 const HeroActive = ({ hero, index }) => (
@@ -65,7 +70,7 @@ export default function Hero() {
                                     <div className="ship-meta-right">
                                         <div className="img text-center">
                                             {heroEvutionArr.map((number, index) => (
-                                                <HeroEvution key={index} hero={hero} index={index + 1} ></HeroEvution>
+                                                <HeroEvution2 key={index} hero={hero} index={index + 5} ></HeroEvution2>
                                             ))} 
                                         </div>
                                     </div>
