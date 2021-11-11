@@ -29,7 +29,7 @@ export default function News() {
                 </div>
                 <Row>
                     <Col lg={3}>
-                        <div className="img"><img src="/img/witch.png" className="bounce" /></div>
+                        <div className="img d-md-none d-lg-block"><img src="/img/witch.png" className="bounce" /></div>
                     </Col>
                     <Col lg={9} className="align-items-center">
                         <Carousel responsive={responsive} infinite={true} loop={true}>

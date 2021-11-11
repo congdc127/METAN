@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Form, Col } from 'react-bootstrap';
+import menuFooter from '/public/data/menuFooter';
 
 export default function Footer() {
     return (
@@ -11,14 +12,9 @@ export default function Footer() {
                     <div className="col-6 col-md-4 col-lg-3 mb-4">
                         <h4 className="text-brand">Links</h4>
                         <ul className="footer-nav">
-                            <li><a href="#" className="text-white" target="_blank">Play game</a></li>
-                            <li><a className="text-white" target="_blank">Marketplace</a></li>
-                            <li><a href="/" className="text-white">Docs</a></li>
-                            <li><a href="#" className="text-white">HE Token</a></li>
-                            <li><a href="#" target="_blank" className="text-white">Pitch Deck</a></li>
-                            <li><a href="#" className="text-white" target="_blank">Media kit</a></li>
-                            <li><a href="/" className="text-white" target="_blank">Feedback to us</a></li>
-                            <li><a href="/" className="text-white" target="_blank">Support</a></li>
+                            {menuFooter.map((item, index) => (
+                                <li><a href={item.link} className="text-white" target={item.target}>{ item.title}</a></li>
+                            ))}
                         </ul>
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 mb-4">

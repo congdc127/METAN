@@ -66,7 +66,7 @@ export default function Hero() {
                     <div className="block-content">
                         <div className="ship-meta">
                             <Row>
-                                <Col xl={1}>
+                                <Col xl={1} lg={2} md={2}>
                                     <div className="ship-meta-right">
                                         <div className="img text-center">
                                             {heroEvutionArr.map((number, index) => (
@@ -75,14 +75,10 @@ export default function Hero() {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col xl={4}>
+                                <Col xl={4} lg={8} md={8}>
                                     <div className="ship-meta-left">
                                         <div className="ship-spine">
                                             <div className="hero-wrap">
-                                                <div className="ship-line-name">
-                                                    <span className="name-first">{hero.nameFirst}</span>
-                                                    <span className="name-last">{hero.nameLast}</span>
-                                                </div>
                                                 {heroActiveArr.map((number, index) => (
                                                     <HeroActive key={index} hero={hero} index={index + 1} ></HeroActive>
                                                 ))} 
@@ -90,7 +86,7 @@ export default function Hero() {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col xl={1}>
+                                <Col xl={1} lg={2} md={2}>
                                     <div className="ship-meta-right">
                                         <div className="img text-center">
                                             {heroEvutionArr.map((number, index) => (
@@ -101,6 +97,10 @@ export default function Hero() {
                                 </Col>
                                 <Col xl={6}>
                                     <div className="ship-meta-right content">
+                                        <div className="ship-line-name">
+                                            <span className="name-first">{hero.nameFirst}</span>
+                                            <span className="name-last">{hero.nameLast}</span>
+                                        </div>
                                         <div className="ship-sub">{hero.heroDesc}</div>
                                     </div>
                                 </Col>

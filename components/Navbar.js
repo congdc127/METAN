@@ -29,14 +29,14 @@ export default function Navbar() {
     <header className="box-header" id="box-header" ref={navRef}>
       <div className="menu">
         <div className="container">
-          <div className="row d-flex justify-content-between">
+          <div className="row d-flex justify-content-center">
             <div className="logo-wrapper">
               <span className="logo-space">
                 <img src="/img/logo.png" className="logo button-effect" />
               </span>
             </div>
             <div
-              className={` d-xl-flex justify-content-end menu-list ${
+              className={` d-xl-flex menu-list ${
                 show ? "active" : ""
               }`}
             >
