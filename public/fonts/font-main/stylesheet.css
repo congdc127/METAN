@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'BeaufortforLOL';
+    src: url('BeaufortforLOL-Bold.eot');
+    src: url('BeaufortforLOL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BeaufortforLOL-Bold.woff2') format('woff2'),
+        url('BeaufortforLOL-Bold.woff') format('woff'),
+        url('BeaufortforLOL-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BeaufortforLOL';
+    src: url('BeaufortforLOL-HeavyItalic.eot');
+    src: url('BeaufortforLOL-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('BeaufortforLOL-HeavyItalic.woff2') format('woff2'),
+        url('BeaufortforLOL-HeavyItalic.woff') format('woff'),
+        url('BeaufortforLOL-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BeaufortforLOL';
+    src: url('BeaufortforLOL-Medium.eot');
+    src: url('BeaufortforLOL-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BeaufortforLOL-Medium.woff2') format('woff2'),
+        url('BeaufortforLOL-Medium.woff') format('woff'),
+        url('BeaufortforLOL-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BeaufortforLOL';
+    src: url('BeaufortforLOL-Regular.eot');
+    src: url('BeaufortforLOL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BeaufortforLOL-Regular.woff2') format('woff2'),
+        url('BeaufortforLOL-Regular.woff') format('woff'),
+        url('BeaufortforLOL-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
