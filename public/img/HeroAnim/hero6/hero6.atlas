@@ -1,0 +1,230 @@
+
+hero6.png
+size: 533, 1031
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+0
+  rotate: false
+  xy: 160, 293
+  size: 198, 218
+  orig: 198, 218
+  offset: 0, 0
+  index: -1
+1 1 copy
+  rotate: false
+  xy: 160, 115
+  size: 53, 176
+  orig: 55, 176
+  offset: 0, 0
+  index: -1
+1 2 copy
+  rotate: false
+  xy: 360, 339
+  size: 51, 172
+  orig: 51, 172
+  offset: 0, 0
+  index: -1
+2 1 copy
+  rotate: true
+  xy: 424, 37
+  size: 31, 68
+  orig: 34, 70
+  offset: 1, 1
+  index: -1
+2 2 copy
+  rotate: true
+  xy: 308, 7
+  size: 33, 68
+  orig: 33, 68
+  offset: 0, 0
+  index: -1
+3 1 copy
+  rotate: true
+  xy: 424, 70
+  size: 30, 75
+  orig: 30, 75
+  offset: 0, 0
+  index: -1
+3 2 copy
+  rotate: true
+  xy: 81, 65
+  size: 40, 87
+  orig: 40, 87
+  offset: 0, 0
+  index: -1
+4 1
+  rotate: false
+  xy: 316, 42
+  size: 106, 111
+  orig: 108, 114
+  offset: 1, 2
+  index: -1
+4 2
+  rotate: true
+  xy: 317, 155
+  size: 136, 87
+  orig: 138, 89
+  offset: 1, 1
+  index: -1
+4 3
+  rotate: false
+  xy: 471, 719
+  size: 32, 62
+  orig: 34, 64
+  offset: 1, 1
+  index: -1
+4 4
+  rotate: true
+  xy: 413, 336
+  size: 29, 28
+  orig: 31, 31
+  offset: 1, 2
+  index: -1
+5
+  rotate: false
+  xy: 180, 7
+  size: 126, 51
+  orig: 126, 51
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 215, 164
+  size: 100, 127
+  orig: 102, 129
+  offset: 1, 1
+  index: -1
+Layer 1
+  rotate: true
+  xy: 413, 367
+  size: 144, 31
+  orig: 146, 33
+  offset: 1, 1
+  index: -1
+Tay-P/T 2 1
+  rotate: true
+  xy: 2, 2
+  size: 61, 88
+  orig: 61, 88
+  offset: 0, 0
+  index: -1
+Tay-P/T 2 2
+  rotate: true
+  xy: 92, 6
+  size: 57, 86
+  orig: 57, 86
+  offset: 0, 0
+  index: -1
+Tay-P/T 3 1
+  rotate: false
+  xy: 446, 407
+  size: 83, 117
+  orig: 96, 119
+  offset: 1, 1
+  index: -1
+Tay-P/T 3 2
+  rotate: true
+  xy: 424, 102
+  size: 117, 92
+  orig: 119, 94
+  offset: 1, 1
+  index: -1
+Tay-P/T 4 2
+  rotate: false
+  xy: 485, 818
+  size: 33, 70
+  orig: 35, 72
+  offset: 1, 1
+  index: -1
+Tay-P/T 4 4
+  rotate: true
+  xy: 471, 783
+  size: 32, 60
+  orig: 33, 60
+  offset: 1, 0
+  index: -1
+Tay-P/T 4 5
+  rotate: true
+  xy: 489, 890
+  size: 139, 41
+  orig: 139, 51
+  offset: 0, 0
+  index: -1
+Vong-P/1
+  rotate: false
+  xy: 406, 221
+  size: 109, 113
+  orig: 111, 116
+  offset: 1, 2
+  index: -1
+Vong-P/2
+  rotate: false
+  xy: 215, 60
+  size: 99, 102
+  orig: 103, 105
+  offset: 2, 2
+  index: -1
+Vong-P/3
+  rotate: false
+  xy: 434, 526
+  size: 82, 85
+  orig: 85, 88
+  offset: 1, 1
+  index: -1
+Vong-P/4
+  rotate: false
+  xy: 446, 336
+  size: 72, 69
+  orig: 75, 72
+  offset: 2, 2
+  index: -1
+fx-1/1057-2
+  rotate: true
+  xy: 2, 65
+  size: 446, 77
+  orig: 473, 80
+  offset: 24, 2
+  index: -1
+fx-1/1057-3
+  rotate: false
+  xy: 2, 513
+  size: 430, 98
+  orig: 449, 102
+  offset: 4, 3
+  index: -1
+fx-1/1057-4
+  rotate: false
+  xy: 2, 718
+  size: 467, 97
+  orig: 472, 99
+  offset: 1, 1
+  index: -1
+fx-1/1057-5
+  rotate: false
+  xy: 2, 613
+  size: 460, 103
+  orig: 471, 104
+  offset: 9, 1
+  index: -1
+fx-1/1057-6
+  rotate: false
+  xy: 2, 817
+  size: 481, 105
+  orig: 486, 106
+  offset: 3, 1
+  index: -1
+fx-1/1057-7
+  rotate: false
+  xy: 2, 924
+  size: 485, 105
+  orig: 490, 106
+  offset: 2, 1
+  index: -1
+fx-1/1057-8
+  rotate: true
+  xy: 81, 107
+  size: 404, 77
+  orig: 417, 83
+  offset: 2, 5
+  index: -1

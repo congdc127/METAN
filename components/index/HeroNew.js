@@ -1,56 +1,18 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import HeroAnim from './HeroAnim';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import heroData from '../../public/data/heroData';
 
 export default function HeroNew() {
     useEffect(() => {
         let heroNameEl = document.querySelector('.hero-name');
         heroNameEl.style.height = `${(heroNameEl.clientWidth * 130) / 429}px`;
-        let heroBodyEl = document.querySelector('.hero-body');
-
-        var config = {
-            type: Phaser.AUTO,
-            parent: 'hero-body',
-            scene: {
-                preload: preload,
-                create: create,
-                pack: {
-                    files: [
-                        {
-                            type: 'scenePlugin',
-                            key: 'SpinePlugin',
-                            url: 'plugins/SpinePlugin.js',
-                            sceneKey: 'spine',
-                        },
-                    ],
-                },
-            },
-            transparent: true,
-            scale: {
-                parent: 'hero-body',
-                width: '100%',
-                height: '100%',
-            },
-        };
-
-        var game = new Phaser.Game(config);
-
-        function preload() {
-            this.load.setPath('img/hero/hero0/');
-
-            this.load.spine(
-                'hero0',
-                'Char-8-Rambo-UI.json',
-                'Char-8-Rambo-UI-S.atlas'
-            );
-        }
-
-        function create() {
-            let hero = this.add.spine(431, 300, 'hero0', 'Idle', true);
-
-            // hero.chain(['Idle', 'Die']);
-            console.log(hero.getAnimationList());
-        }
     }, []);
+
+    const [heroAnimName, setHeroAnim] = useState('hero1');
+    const [heroMeta, setHeroMeta] = useState(heroData[0]);
+
     return (
         <div className="hero-new-wrap">
             <Container>
@@ -58,48 +20,22 @@ export default function HeroNew() {
                     <Col md={2}>
                         <div className="hero-list-wrap">
                             <div className="hero-list">
-                                <div className="hero-ava-box">
-                                    <img
-                                        src="/img/Heroes/ava/hero1.png"
-                                        alt="hero-ava"
-                                    />
-                                </div>
-                                <div className="hero-ava-box">
-                                    <img
-                                        src="/img/Heroes/ava/hero1.png"
-                                        alt="hero-ava"
-                                    />
-                                </div>
-                                <div className="hero-ava-box">
-                                    <img
-                                        src="/img/Heroes/ava/hero1.png"
-                                        alt="hero-ava"
-                                    />
-                                </div>
-                                <div className="hero-ava-box">
-                                    <img
-                                        src="/img/Heroes/ava/hero1.png"
-                                        alt="hero-ava"
-                                    />
-                                </div>
-                                <div className="hero-ava-box">
-                                    <img
-                                        src="/img/Heroes/ava/hero1.png"
-                                        alt="hero-ava"
-                                    />
-                                </div>
-                                <div className="hero-ava-box">
-                                    <img
-                                        src="/img/Heroes/ava/hero1.png"
-                                        alt="hero-ava"
-                                    />
-                                </div>
-                                <div className="hero-ava-box">
-                                    <img
-                                        src="/img/Heroes/ava/hero1.png"
-                                        alt="hero-ava"
-                                    />
-                                </div>
+                                {heroData.map((hero, index) => {
+                                    return (
+                                        <div
+                                            className="hero-ava-box"
+                                            onClick={() => {
+                                                setHeroAnim(hero.heroId);
+                                                setHeroMeta(heroData[index]);
+                                            }}
+                                        >
+                                            <img
+                                                src="/img/Heroes/ava/hero1.png"
+                                                alt="hero-ava"
+                                            />
+                                        </div>
+                                    );
+                                })}
                             </div>
                             <div className="hero-list-bg"></div>
                         </div>
@@ -125,12 +61,7 @@ export default function HeroNew() {
                                         alt="body-stamp"
                                     />
                                 </div>
-                                <div className="hero-body" id="hero-body">
-                                    {/* <img
-                                        src="/img/Heroes/hero10.png"
-                                        alt="Heroes"
-                                    /> */}
-                                </div>
+                                <HeroAnim heroName={heroAnimName}></HeroAnim>
                                 <div className="hero-anim-backstage">
                                     <img
                                         src="/img/backstage.png"
@@ -138,33 +69,27 @@ export default function HeroNew() {
                                     />
                                 </div>
                             </div>
-                            <div className="hero-items"></div>
+                            <div className="hero-items">
+                                <div className="item-col">
+                                    <div className="item-box"></div>
+                                    <div className="item-box"></div>
+                                    <div className="item-box"></div>
+                                </div>
+                                <div className="item-col">
+                                    <div className="item-box"></div>
+                                    <div className="item-box"></div>
+                                    <div className="item-box"></div>
+                                </div>
+                            </div>
                         </div>
                     </Col>
                     <Col md={3}>
                         <div className="hero-meta">
-                            <div className="hero-name">Armour Warrior</div>
-                            <div className="hero-desc-header">Background</div>
-                            <div className="hero-desc">
-                                Architecto inceptos nibh iure, laudantium
-                                nostrum ligula minim laboriosam habitant morbi
-                                tempus quisquam senectus mi habitasse, et,
-                                tortor? Doloribus ipsam temporibus mattis
-                                laudantium tenetur. Cupiditate fugit veniam
-                                imperdiet! Fuga aptent. Vitae eius, laborum iure
-                                ea quisque vehicula magnam earum neque nibh
-                                magnam! Lacus ullamco expedita, dignissim curae?
-                                Ratione eleifend reprehenderit interdum
-                                excepteur corporis amet, ipsa temporibus atque.
-                                Consequat dolorum tempore, mollis duis quibusdam
-                                voluptate, consequuntur, eius aliquet enim.
-                                Magni leo deserunt, dolorum? Porta repellendus
-                                pede nisi! Aliqua tempor do vitae. Totam.
-                                Eleifend temporibus dolores! Placeat iusto
-                                laborum posuere, consequuntur occaecat venenatis
-                                tincidunt magnam ridiculus arcu rhoncus,
-                                assumenda aliquip, quod, ad.
+                            <div className="hero-name">
+                                {heroMeta.nameFirst}
                             </div>
+                            <div className="hero-desc-header">Background</div>
+                            <div className="hero-desc">{heroMeta.heroDesc}</div>
                         </div>
                     </Col>
                 </Row>

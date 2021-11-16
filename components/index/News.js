@@ -1,47 +1,76 @@
 import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap';
-import Carousel from "react-multi-carousel";
-import dataNews from '/public/data/news'
-import "react-multi-carousel/lib/styles.css";
-
-const responsive = {
-  superLargeDesktop: {
-    breakpoint: { max: 4000, min: 1025 },
-    items: 3
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 567 },
-    items: 2
-  },
-  mobile: {
-    breakpoint: { max: 567, min: 0 },
-    items: 1
-  }
-};
+import Carousel from 'react-multi-carousel';
+import dataNews from '/public/data/news';
+import { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css/navigation';
 
 export default function News() {
     return (
-        <div className="block block-news">
-            <Container>
-                <div className="block-header">
-                    <h2 className="segment-heading">News Update</h2>
-                </div>
-                <Row>
-                    <Col lg={3}>
-                        <div className="img d-md-none d-lg-block"><img src="/img/witch.png" className="bounce" /></div>
-                    </Col>
-                    <Col lg={9} className="align-items-center">
-                        <Carousel responsive={responsive} infinite={true} loop={true}>
+        <div className="block block-news h-100">
+            <Container className="h-100">
+                <div className="news-content-wrap h-100">
+                    <div className="hero-header">
+                        <div className="hero-header-sub">MORE TO</div>
+                        <div className="hero-header-title">NEWS UPDATE</div>
+                    </div>
+                    <div className="news-slider">
+                        <div className="navigation-button prevNew">
+                            <img src="/img/nav_arrow.png" alt="prev" />
+                        </div>
+                        <Swiper
+                            spaceBetween={16}
+                            slidesPerView={3}
+                            modules={[Navigation]}
+                            navigation={{
+                                nextEl: '.nextNew',
+                                prevEl: '.prevNew',
+                            }}
+                            loop={false}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 10,
+                                },
+                                576: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 10,
+                                },
+                                768: {
+                                    slidesPerView: 6,
+                                    spaceBetween: 10,
+                                },
+                                992: {
+                                    slidesPerView: 8,
+                                    spaceBetween: 15,
+                                },
+                                1200: {
+                                    slidesPerView: 4,
+                                },
+                            }}
+                        >
                             {dataNews.map((item, index) => (
-                                <div className="item text-center" key={index}>
-                                    <div className="image"><img src={item.image} /></div>
-                                    <div className="content">{ item.desc}</div>
-                                </div>
+                                <SwiperSlide>
+                                    <div className="news-item" key={index}>
+                                        <div className="news-image">
+                                            <img src={item.image} />
+                                        </div>
+                                        <div className="news-meta">
+                                            <div className="news-title">
+                                            {item.title}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
                             ))}
-                        </Carousel>
-                    </Col>
-                </Row>
+                        </Swiper>
+                        <div className="navigation-button nextNew">
+                            <img src="/img/nav_arrow.png" alt="prev" />
+                        </div>
+                    </div>
+                </div>
             </Container>
         </div>
     );

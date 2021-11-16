@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
+
 export default function Layout({ children }) {
     const router = useRouter();
 

@@ -19,10 +19,9 @@ export default function Home() {
     return (
         <div className="home-content">
             <ReactFullpage
-                licenseKey={'YOUR_KEY_HERE'}
                 scrollingSpeed={1000} /* Options here */
+                navigation={true}
                 onLeave={(origin, destination, direction) => {
-                    console.log(destination);
                     let menuBar = document.querySelector('#box-header');
                     if (destination.index > 0) {
                         menuBar.classList.add('stuck');
@@ -48,9 +47,6 @@ export default function Home() {
                             <div className="section">
                                 <HeroNew></HeroNew>
                             </div>
-                            {/* <div className="section">
-                                 <Hero2></Hero2>
-                            </div> */}
                             <div className="section">
                                 <News></News>
                             </div>

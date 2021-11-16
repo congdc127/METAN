@@ -1,22 +1,31 @@
 import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap';
-import dataInvested from '/public/data/invested'
+import dataInvested from '/public/data/invested';
 
 export default function OurTeams() {
     return (
-        <div className="block block-invested">
-            <Container>
-                <Row>
-                    <h2 className="segment-heading">Invested & Supported by</h2>
-                    {dataInvested.map((item, index) => (
-                        <Col md={3} sm={3} xs={4}>
-                            <div className="item text-center" key={index}>
-                                <div className="image"><img className="scale-up" src={item.image} /></div>
-                            </div>
-                        </Col>
-                    ))}
-                </Row>
+        <div className="block block-invested h-100">
+            <Container className="h-100">
+                <div className="invested-wrap h-100">
+                    <div className="hero-header">
+                        <div className="hero-header-title">
+                            INVESTED & SUPPORTED BY
+                        </div>
+                    </div>
+                    <Row>
+                        {dataInvested.map((item, index) => (
+                            <Col md={3} sm={3} xs={4}>
+                                <div className="invested-img" key={index}>
+                                    <img
+                                        className="scale-up"
+                                        src={item.image}
+                                    />
+                                </div>
+                            </Col>
+                        ))}
+                    </Row>
+                </div>
             </Container>
         </div>
     );

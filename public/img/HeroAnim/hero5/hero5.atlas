@@ -1,0 +1,223 @@
+
+hero5.png
+size: 993, 1026
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Char-5-Thor0201-P/1
+  rotate: false
+  xy: 82, 211
+  size: 126, 292
+  orig: 126, 292
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/10
+  rotate: true
+  xy: 568, 9
+  size: 101, 102
+  orig: 103, 104
+  offset: 1, 1
+  index: -1
+Char-5-Thor0201-P/11
+  rotate: false
+  xy: 636, 332
+  size: 35, 13
+  orig: 37, 15
+  offset: 1, 1
+  index: -1
+Char-5-Thor0201-P/12
+  rotate: false
+  xy: 210, 200
+  size: 242, 117
+  orig: 244, 119
+  offset: 1, 1
+  index: -1
+Char-5-Thor0201-P/13
+  rotate: false
+  xy: 770, 23
+  size: 80, 49
+  orig: 82, 52
+  offset: 1, 1
+  index: -1
+Char-5-Thor0201-P/14
+  rotate: true
+  xy: 688, 74
+  size: 128, 243
+  orig: 128, 243
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/15
+  rotate: true
+  xy: 82, 121
+  size: 88, 124
+  orig: 88, 124
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/2 copy
+  rotate: true
+  xy: 40, 5
+  size: 35, 86
+  orig: 39, 88
+  offset: 2, 1
+  index: -1
+Char-5-Thor0201-P/3 copy
+  rotate: true
+  xy: 672, 19
+  size: 53, 96
+  orig: 53, 96
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/4 copy
+  rotate: true
+  xy: 852, 30
+  size: 42, 84
+  orig: 44, 86
+  offset: 1, 1
+  index: -1
+Char-5-Thor0201-P/5 copy
+  rotate: false
+  xy: 636, 347
+  size: 47, 102
+  orig: 47, 102
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/6 copy
+  rotate: false
+  xy: 592, 338
+  size: 42, 111
+  orig: 42, 111
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/7
+  rotate: false
+  xy: 592, 451
+  size: 97, 139
+  orig: 97, 139
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/8 copy
+  rotate: false
+  xy: 2, 2
+  size: 36, 72
+  orig: 36, 72
+  offset: 0, 0
+  index: -1
+Char-5-Thor0201-P/9 copy
+  rotate: true
+  xy: 2, 76
+  size: 40, 78
+  orig: 40, 80
+  offset: 0, 2
+  index: -1
+Layer 1
+  rotate: true
+  xy: 927, 250
+  size: 144, 31
+  orig: 146, 33
+  offset: 1, 1
+  index: -1
+fx-1/1
+  rotate: true
+  xy: 82, 42
+  size: 77, 124
+  orig: 350, 550
+  offset: 144, 297
+  index: -1
+fx-1/10
+  rotate: false
+  xy: 441, 592
+  size: 276, 212
+  orig: 350, 550
+  offset: 43, 5
+  index: -1
+fx-1/11
+  rotate: false
+  xy: 717, 808
+  size: 270, 216
+  orig: 350, 550
+  offset: 41, 5
+  index: -1
+fx-1/12
+  rotate: false
+  xy: 441, 806
+  size: 274, 218
+  orig: 350, 550
+  offset: 38, 5
+  index: -1
+fx-1/13
+  rotate: false
+  xy: 454, 112
+  size: 232, 218
+  orig: 350, 550
+  offset: 56, 7
+  index: -1
+fx-1/14
+  rotate: false
+  xy: 208, 37
+  size: 228, 161
+  orig: 350, 550
+  offset: 68, 41
+  index: -1
+fx-1/15
+  rotate: false
+  xy: 438, 37
+  size: 128, 73
+  orig: 350, 550
+  offset: 120, 79
+  index: -1
+fx-1/2
+  rotate: false
+  xy: 2, 118
+  size: 78, 385
+  orig: 350, 550
+  offset: 143, 150
+  index: -1
+fx-1/3
+  rotate: false
+  xy: 2, 505
+  size: 189, 519
+  orig: 350, 550
+  offset: 81, 31
+  index: -1
+fx-1/4
+  rotate: false
+  xy: 193, 581
+  size: 246, 443
+  orig: 350, 550
+  offset: 61, 21
+  index: -1
+fx-1/5
+  rotate: false
+  xy: 688, 204
+  size: 237, 190
+  orig: 350, 550
+  offset: 61, 18
+  index: -1
+fx-1/6
+  rotate: true
+  xy: 405, 332
+  size: 247, 185
+  orig: 350, 550
+  offset: 55, 15
+  index: -1
+fx-1/7
+  rotate: true
+  xy: 210, 319
+  size: 260, 193
+  orig: 350, 550
+  offset: 53, 12
+  index: -1
+fx-1/8
+  rotate: false
+  xy: 719, 396
+  size: 272, 201
+  orig: 350, 550
+  offset: 49, 9
+  index: -1
+fx-1/9
+  rotate: false
+  xy: 719, 599
+  size: 272, 207
+  orig: 350, 550
+  offset: 47, 7
+  index: -1

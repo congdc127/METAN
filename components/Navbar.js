@@ -33,17 +33,15 @@ export default function Navbar() {
                 <div className="container">
                     <div className="menu-wrap">
                         <div className="row">
-                            <Col md={1}>
+                            <Col md={2}>
                                 <div className="logo-wrapper">
-                                    <span className="logo-space">
-                                        <img
-                                            src="/img/logo.png"
-                                            className="logo button-effect"
-                                        />
-                                    </span>
+                                    <img
+                                        src="/img/logo.png"
+                                        className="logo button-effect"
+                                    />
                                 </div>
                             </Col>
-                            <Col md={11}>
+                            <Col md={8}>
                                 <div
                                     className={`d-xl-flex menu-list ${
                                         show ? 'active' : ''
@@ -89,6 +87,7 @@ export default function Navbar() {
                                 </div>
                                 <div className="d-block d-md-none hamber"></div>
                             </Col>
+                            <Col md={2}></Col>
                         </div>
                         <div className="signature-wrapper">
                             <a
