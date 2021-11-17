@@ -11,7 +11,7 @@ export default function Layout({ children }) {
     return (
         <div className="main-app" id="main-app">
             <Head>
-                <title>Metan Evolution</title>
+                <title>METAN EVOLUTION</title>
                 <meta
                     name="viewport"
                     content="initial-scale=1.0, width=device-width"

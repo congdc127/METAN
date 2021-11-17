@@ -8,7 +8,7 @@ export default function Token() {
             <Container className="h-100">
                 <div className="token-wrap">
                     <div className="token-circle">
-                        <h2 className="token-tile">WARZ token</h2>
+                        <h2 className="token-tile">METAN token</h2>
                         <img src="/img/token.png" className="bounce" />
                         <div className="token-circle-1">
                             <svg
@@ -37,14 +37,14 @@ export default function Token() {
                         <Col md={2} className="token-desc-wrap">
                             <div className="toke-desc-item">
                                 <div className="token-desc-label">Token</div>
-                                <div className="token-desc-content">WARZ</div>
+                                <div className="token-desc-content">METAN</div>
                             </div>
                         </Col>
                         <Col md={2} className="token-desc-wrap">
                             <div className="toke-desc-item">
                                 <div className="token-desc-label">Name</div>
                                 <div className="token-desc-content">
-                                    WAR ZOMBIE
+                                    METAN EVOLUTION
                                 </div>
                             </div>
                         </Col>
@@ -54,7 +54,7 @@ export default function Token() {
                                     Max. supply
                                 </div>
                                 <div className="token-desc-content">
-                                    1,000,000,000 WARZ
+                                    1,000,000,000 METAN
                                 </div>
                             </div>
                         </Col>

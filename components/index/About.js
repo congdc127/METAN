@@ -11,16 +11,10 @@ export default function About() {
                 </div>
                 <div className="about-content">
                     <h2 className="segment-heading">
-                        WAR ZOMBIE <br /> Idle Defense Game
+                    METAN EVOLUTION
                     </h2>
                     <p className="about-desc">
-                        WAR ZOMBIE: Idle Defense has exquisitely digital
-                        collectibles created using blockchain technology. Each
-                        collectible is matchless, genuine and varies in rarity.
-                        WAR ZOMBIE: Idle Defense Universe has a lot of different
-                        races like Venomist, Alleria, Big Daddy, Nidia, Dr.Stan,
-                        Valerio, Sophia and Others which are waiting for the
-                        user to discover and collect.
+                    METAN EVOLUTION is an application game platform on the Blockchain network. The system includes NFT items that differ in their unique characteristics, features, and rarity. The rewards in-game are organized within the GameFi architecture, allowing players to collect more NFT items and increase their value over time.
                     </p>
                     <div className="download-area">
                         <button className="d-block btn-play">
@@ -59,9 +53,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            {/* <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div> */}
         </div>
     );
 }

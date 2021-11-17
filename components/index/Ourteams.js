@@ -14,7 +14,7 @@ export default function OurTeams() {
                         <div className="hero-header-desc">
                             The team always plays an important role in the
                             success of a project. As a team, we have been
-                            working with each other for more than 5 years, with
+                            working with each other for more than 10 years, with
                             everyone being highly experienced in their own
                             expertise
                         </div>
