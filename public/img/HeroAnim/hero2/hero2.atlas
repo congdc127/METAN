@@ -1,125 +1,54 @@
-
-hero2.png
-size: 380, 518
-format: RGBA8888
-filter: Linear, Linear
-repeat: none
+heroes2.png
+size:512,512
+filter:Linear,Linear
+pma:true
 1
-  rotate: false
-  xy: 2, 9
-  size: 57, 73
-  orig: 57, 73
-  offset: 0, 0
-  index: -1
+bounds:197,261,57,73
+rotate:90
 10
-  rotate: false
-  xy: 319, 409
-  size: 34, 23
-  orig: 36, 25
-  offset: 1, 1
-  index: -1
+bounds:258,368,34,23
+offsets:1,1,36,25
+rotate:90
 2 1
-  rotate: false
-  xy: 198, 175
-  size: 90, 188
-  orig: 90, 188
-  offset: 0, 0
-  index: -1
+bounds:2,141,90,188
+rotate:90
 2 2
-  rotate: false
-  xy: 290, 218
-  size: 87, 187
-  orig: 87, 187
-  offset: 0, 0
-  index: -1
+bounds:192,46,87,187
 3
-  rotate: false
-  xy: 65, 49
-  size: 126, 143
-  orig: 126, 143
-  offset: 0, 0
-  index: -1
+bounds:281,49,126,143
 4
-  rotate: false
-  xy: 61, 2
-  size: 95, 45
-  orig: 97, 48
-  offset: 1, 1
-  index: -1
+bounds:281,2,95,45
+offsets:1,1,97,48
 5 1
-  rotate: false
-  xy: 264, 6
-  size: 60, 167
-  orig: 60, 167
-  offset: 0, 0
-  index: -1
+bounds:135,235,60,167
 5 2
-  rotate: false
-  xy: 193, 2
-  size: 69, 171
-  orig: 69, 171
-  offset: 0, 0
-  index: -1
+bounds:2,70,69,171
+rotate:90
 5 3
-  rotate: false
-  xy: 65, 194
-  size: 131, 169
-  orig: 131, 169
-  offset: 0, 0
-  index: -1
+bounds:2,233,131,169
 5 4
-  rotate: false
-  xy: 158, 32
-  size: 30, 15
-  orig: 32, 17
-  offset: 1, 1
-  index: -1
+bounds:258,336,30,15
+offsets:1,1,32,17
+rotate:90
 5 5
-  rotate: true
-  xy: 275, 389
-  size: 16, 12
-  orig: 18, 14
-  offset: 1, 1
-  index: -1
+bounds:258,322,16,12
+offsets:1,1,18,14
 6 1
-  rotate: false
-  xy: 275, 407
-  size: 42, 109
-  orig: 42, 113
-  offset: 0, 4
-  index: -1
+bounds:70,26,42,109
+offsets:0,4,42,113
+rotate:90
 6 2
-  rotate: true
-  xy: 290, 179
-  size: 37, 48
-  orig: 39, 51
-  offset: 1, 2
-  index: -1
+bounds:181,7,37,48
+offsets:1,2,39,51
+rotate:90
 7
-  rotate: false
-  xy: 326, 111
-  size: 48, 66
-  orig: 48, 66
-  offset: 0, 0
-  index: -1
+bounds:2,20,48,66
+rotate:90
 8
-  rotate: false
-  xy: 2, 365
-  size: 271, 151
-  orig: 271, 151
-  offset: 0, 0
-  index: -1
+bounds:283,194,271,151
+rotate:90
 9
-  rotate: false
-  xy: 319, 434
-  size: 59, 82
-  orig: 59, 82
-  offset: 0, 0
-  index: -1
+bounds:197,320,59,82
 Layer 1
-  rotate: true
-  xy: 2, 84
-  size: 279, 61
-  orig: 281, 63
-  offset: 1, 1
-  index: -1
+bounds:2,404,279,61
+offsets:1,1,281,63

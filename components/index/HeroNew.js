@@ -5,13 +5,20 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import heroData from '../../public/data/heroData';
 
 export default function HeroNew() {
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+
     useEffect(() => {
         let heroNameEl = document.querySelector('.hero-name');
         heroNameEl.style.height = `${(heroNameEl.clientWidth * 130) / 429}px`;
     }, []);
 
-    const [heroAnimName, setHeroAnim] = useState('hero1');
-    const [heroMeta, setHeroMeta] = useState(heroData[0]);
+    let heroRandom = getRandomInt(heroData.length);
+
+    const [heroAnimName, setHeroAnim] = useState('hero' + (heroRandom + 1));
+
+    const [heroMeta, setHeroMeta] = useState(heroData[heroRandom]);
 
     return (
         <div className="hero-new-wrap">
@@ -30,7 +37,7 @@ export default function HeroNew() {
                                             }}
                                         >
                                             <img
-                                                src="/img/Heroes/ava/hero1.png"
+                                                src={`/img/HeroAnim/ava/${hero.heroId}.png`}
                                                 alt="hero-ava"
                                             />
                                         </div>

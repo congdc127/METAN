@@ -1,195 +1,87 @@
-
-hero4.png
-size: 380, 269
-format: RGBA8888
-filter: Linear, Linear
-repeat: none
+heroes4.png
+size:512,256
+filter:Linear,Linear
+pma:true
 1 1 copy
-  rotate: true
-  xy: 240, 227
-  size: 40, 134
-  orig: 40, 134
-  offset: 0, 0
-  index: -1
+bounds:233,22,40,134
+rotate:90
 1 2 copy
-  rotate: true
-  xy: 103, 174
-  size: 40, 142
-  orig: 40, 142
-  offset: 0, 0
-  index: -1
+bounds:265,214,40,142
+rotate:90
 2 1 copy
-  rotate: false
-  xy: 349, 135
-  size: 24, 90
-  orig: 24, 90
-  offset: 0, 0
-  index: -1
+bounds:109,3,24,90
+rotate:90
 3
-  rotate: true
-  xy: 103, 110
-  size: 62, 107
-  orig: 62, 107
-  offset: 0, 0
-  index: -1
+bounds:156,192,62,107
+rotate:90
 4 1
-  rotate: false
-  xy: 240, 37
-  size: 64, 60
-  orig: 64, 60
-  offset: 0, 0
-  index: -1
+bounds:395,152,64,60
 4 2
-  rotate: false
-  xy: 323, 131
-  size: 21, 29
-  orig: 24, 31
-  offset: 1, 1
-  index: -1
+bounds:55,20,21,29
+offsets:1,1,24,31
+rotate:90
 4 3
-  rotate: true
-  xy: 164, 19
-  size: 89, 74
-  orig: 89, 74
-  offset: 0, 0
-  index: -1
+bounds:217,64,89,74
+rotate:90
 4 4
-  rotate: true
-  xy: 306, 50
-  size: 47, 42
-  orig: 49, 44
-  offset: 1, 1
-  index: -1
+bounds:305,165,47,42
+offsets:1,1,49,44
+rotate:90
 4 5
-  rotate: false
-  xy: 247, 162
-  size: 100, 63
-  orig: 100, 63
-  offset: 0, 0
-  index: -1
+bounds:293,90,100,63
 4 6
-  rotate: true
-  xy: 375, 204
-  size: 21, 3
-  orig: 23, 5
-  offset: 1, 1
-  index: -1
+bounds:86,24,21,3
+offsets:1,1,23,5
 4 7
-  rotate: false
-  xy: 343, 2
-  size: 23, 5
-  orig: 25, 7
-  offset: 1, 1
-  index: -1
+bounds:86,36,23,5
+offsets:1,1,25,7
 4 8
-  rotate: false
-  xy: 323, 99
-  size: 22, 5
-  orig: 24, 7
-  offset: 1, 1
-  index: -1
+bounds:86,29,22,5
+offsets:1,1,24,7
 5 1 copy
-  rotate: false
-  xy: 212, 114
-  size: 30, 58
-  orig: 30, 58
-  offset: 0, 0
-  index: -1
+bounds:156,160,30,58
+rotate:90
 5 2
-  rotate: false
-  xy: 323, 106
-  size: 25, 23
-  orig: 27, 25
-  offset: 1, 1
-  index: -1
+bounds:201,2,25,23
+offsets:1,1,27,25
+rotate:90
 6 1
-  rotate: false
-  xy: 86, 14
-  size: 76, 94
-  orig: 76, 94
-  offset: 0, 0
-  index: -1
+bounds:139,59,76,94
 6 2
-  rotate: true
-  xy: 244, 99
-  size: 61, 77
-  orig: 61, 77
-  offset: 0, 0
-  index: -1
+bounds:369,11,61,77
 6 3
-  rotate: false
-  xy: 2, 115
-  size: 99, 99
-  orig: 99, 99
-  offset: 0, 0
-  index: -1
+bounds:55,155,99,99
 6 4
-  rotate: false
-  xy: 343, 9
-  size: 35, 39
-  orig: 37, 41
-  offset: 1, 1
-  index: -1
+bounds:264,155,35,39
+offsets:1,1,37,41
+rotate:90
 6 5
-  rotate: false
-  xy: 240, 7
-  size: 53, 28
-  orig: 55, 30
-  offset: 1, 1
-  index: -1
+bounds:139,29,53,28
+offsets:1,1,55,30
 6 6
-  rotate: true
-  xy: 306, 2
-  size: 46, 35
-  orig: 48, 38
-  offset: 1, 2
-  index: -1
+bounds:216,155,46,35
+offsets:1,2,48,38
 6 7
-  rotate: false
-  xy: 350, 96
-  size: 28, 37
-  orig: 30, 39
-  offset: 1, 1
-  index: -1
+bounds:194,29,28,37
+offsets:1,1,30,39
+rotate:90
 7 1
-  rotate: false
-  xy: 350, 68
-  size: 24, 11
-  orig: 26, 13
-  offset: 1, 1
-  index: -1
+bounds:30,5,24,11
+offsets:1,1,26,13
 7 1 2
-  rotate: false
-  xy: 350, 81
-  size: 26, 13
-  orig: 28, 16
-  offset: 1, 2
-  index: -1
+bounds:2,3,26,13
+offsets:1,2,28,16
 7 2
-  rotate: false
-  xy: 350, 53
-  size: 13, 13
-  orig: 15, 15
-  offset: 1, 1
-  index: -1
+bounds:72,5,13,13
+offsets:1,1,15,15
 7 2 2
-  rotate: false
-  xy: 164, 2
-  size: 14, 15
-  orig: 16, 17
-  offset: 1, 1
-  index: -1
+bounds:56,3,14,15
+offsets:1,1,16,17
 Layer 1
-  rotate: false
-  xy: 2, 216
-  size: 236, 51
-  orig: 238, 53
-  offset: 1, 1
-  index: -1
+bounds:2,18,236,51
+offsets:1,1,238,53
+rotate:90
 fx-2
-  rotate: true
-  xy: 2, 3
-  size: 110, 82
-  orig: 128, 128
-  offset: 12, 22
-  index: -1
+bounds:55,43,110,82
+offsets:12,22,128,128
+rotate:90

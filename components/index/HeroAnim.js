@@ -3,8 +3,8 @@ export default function HeroAnim({ heroName }) {
     useEffect(() => {
         document.querySelector('#player-container').innerHTML = '';
         new spine.SpinePlayer('player-container', {
-            jsonUrl: `/img/HeroAnim2/${heroName}/${heroName}.json`,
-            atlasUrl: `/img/HeroAnim2/${heroName}/${heroName}.atlas`,
+            jsonUrl: `/img/HeroAnim/${heroName}/${heroName}.json`,
+            atlasUrl: `/img/HeroAnim/${heroName}/${heroName}.atlas`,
             showControls: false,
             alpha: true,
             viewport: {
