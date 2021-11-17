@@ -1,0 +1,208 @@
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1520px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .block-ship .ship-meta-right .img img {
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .block-ship .ship-meta-right.content {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .segment-heading {
+        margin: 0;
+    }
+    .menu .logo-wrapper {
+        left: 1%;
+    }
+    .menu-list {
+        display: none;
+    }
+    .menu-list.active {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        padding: 15px;
+        background: #40200590;
+    }
+    .menu-list.active .top-nav {
+        display: block;
+    }
+    .menu-list.active .signature-wrapper {
+        margin-left: 30px;
+        position: initial;
+    }
+    .menu-mobile {
+        display: inline-block;
+        width: 70px !important;
+        height: 70px;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+    .menu-mobile:hover {
+        cursor: pointer;
+    }
+    .top-nav .top-nav-item {
+        padding: 5px 0;
+    }
+    .top-nav .top-nav-item:before {
+        top: 14px;
+    }
+
+    .block-slider {
+        height: auto;
+        padding: 0 !important;
+    }
+    .block {
+        padding: 50px 0;
+    }
+
+    .blog-about.about-segment {
+        padding-top: 50px;
+    }
+
+    .block-ship {
+        padding-bottom: 0;
+    }
+    .block-ship .block-content {
+        padding: 0;
+    }
+    .block-ship .ship-meta-right.content {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        margin: 30px 0 0 0;
+    }
+
+    .block-ship .ship-meta-right .img {
+        margin-top: 30px;
+    }
+    .block-ship .ship-meta-right .img img {
+        width: 75%;
+    }
+    .block-ship .ship-sub {
+        min-height: auto;
+    }
+    .block-ship .ship-slide {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .segment-heading {
+        font-size: 28px;
+        padding-bottom: 20px;
+        margin-left: 0;
+    }
+    .text-secondary {
+        text-align: justify;
+    }
+
+    .block-play::before,
+    .block-play::after {
+        display: none;
+    }
+    .block-play .text {
+        margin: 0 0 30px 0;
+    }
+    .block-play .item {
+        background: url('/img/bg-blue.png') no-repeat center;
+        background-size: cover;
+        padding: 15px;
+        height: 100%;
+    }
+    .block-play .item .img {
+        padding: 0;
+    }
+    .block-play .item .item-body {
+        padding: 10px 15px;
+    }
+    .block-play .react-multi-carousel-dot-list {
+        bottom: 0;
+    }
+    .block-play .react-multi-carousel-dot button {
+        width: 50px;
+    }
+
+    .block-ship .ship-meta-right .img img {
+        padding: 15px;
+    }
+
+    .block-roadmap .roadmap-ul {
+        margin-top: 30px;
+        display: block;
+    }
+    .block-roadmap .roadmap-ul .roadmap-item:after {
+        width: 100%;
+    }
+
+    .block-invested .item {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-wrap .bounce {
+        height: 100%;
+    }
+
+    .block-play .item {
+        height: auto;
+        margin: 10px 0;
+    }
+    .block-play .item .img {
+        text-align: center;
+    }
+
+    .block-ship .ship-meta-right .img img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    .bounce {
+        display: none;
+    }
+    .hero .bounce {
+        display: inline-block;
+        width: 80%;
+    }
+    .block-ship .ship-slide {
+        padding: 0;
+    }
+    .block-ship .ship-meta-right {
+        padding: 0 0 30px 0;
+    }
+    .block-ship .ship-item-slide .shipAva {
+        transform: scale(1.5);
+    }
+    .block-ship .ship-item-slide.active .shipAva {
+        transform: scale(1.7);
+    }
+    .block-ship .ship-meta-right.content {
+        margin: 0;
+    }
+    .block-ship .ship-meta-right .img img {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .block-ship .ship-meta .ship-meta-left,
+    .block-ship .ship-spine {
+        width: 100%;
+        height: 85%;
+    }
+}

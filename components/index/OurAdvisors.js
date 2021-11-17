@@ -15,13 +15,20 @@ export default function OurTeams() {
                     <Row className="justify-content-center">
                         {dataAdvisors.map((item, index) => (
                             <Col md={3} sm={4} xs={6}>
-                                <div className="item text-center" key={index}>
-                                    <div className="image">
+                                <div
+                                    className="advisor-item text-center"
+                                    key={index}
+                                >
+                                    <div className="advisor-img">
                                         <img src={item.image} />
                                     </div>
-                                    <div className="content">
-                                        <h5 className="name">{item.name}</h5>
-                                        <p className="desc">{item.desc}</p>
+                                    <div className="advisor-meta">
+                                        <h5 className="advisor-name">
+                                            {item.name}
+                                        </h5>
+                                        <p className="advisor-desc">
+                                            {item.desc}
+                                        </p>
                                     </div>
                                 </div>
                             </Col>

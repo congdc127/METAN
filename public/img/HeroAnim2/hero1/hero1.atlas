@@ -1,0 +1,76 @@
+heroes1.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+1
+bounds:586,143,35,83
+offsets:4,1,40,85
+rotate:90
+2 1
+bounds:584,2,59,130
+offsets:1,1,61,132
+2 2
+bounds:429,8,98,153
+rotate:90
+2 3 2
+bounds:327,321,188,131
+offsets:1,2,190,134
+rotate:90
+2 3 4
+bounds:645,50,91,65
+offsets:1,1,94,67
+rotate:90
+2 3 5
+bounds:429,108,155,70
+rotate:90
+2 4
+bounds:565,275,47,40
+offsets:1,1,50,42
+rotate:90
+2 5
+bounds:203,231,32,26
+offsets:1,1,35,28
+rotate:90
+3
+bounds:111,22,187,205
+4 1
+bounds:2,3,107,224
+4 2
+bounds:300,31,127,232
+4 3
+bounds:641,430,79,66
+rotate:90
+4 4
+bounds:641,296,62,60
+offsets:1,1,64,62
+rotate:90
+4 5
+bounds:465,266,56,98
+offsets:1,1,58,100
+rotate:90
+4 6
+bounds:327,265,136,54
+4 7
+bounds:586,180,75,93
+5
+bounds:203,265,122,244
+6
+bounds:501,134,130,83
+rotate:90
+7 1
+bounds:641,360,68,66
+offsets:1,1,70,68
+rotate:90
+7 2
+bounds:460,324,185,179
+rotate:90
+7 3
+bounds:111,5,35,15
+offsets:1,1,37,17
+7 4
+bounds:2,229,280,136
+rotate:90
+Layer 1
+bounds:140,230,279,61
+offsets:1,1,281,63
+rotate:90

@@ -111,7 +111,7 @@ export default function Footer() {
             <div className="container">
                 <hr />
                 <div className="row small">
-                    <div className="col-md-6"><div className="text-center text-md-left">©2021 WAR ZOMBIE. All rights reserved</div></div>
+                    <div className="col-md-6"><div className="text-center text-md-left">©2021 METAN EVOLUTIONS. All rights reserved</div></div>
                     <div className="col-md-6">
                         <ul className="nav justify-content-center justify-content-md-end">
                             <li className="nav-item"><a className="nav-link" href="">Terms</a></li>

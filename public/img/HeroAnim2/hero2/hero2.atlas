@@ -1,0 +1,54 @@
+heroes2.png
+size:512,512
+filter:Linear,Linear
+pma:true
+1
+bounds:197,261,57,73
+rotate:90
+10
+bounds:258,368,34,23
+offsets:1,1,36,25
+rotate:90
+2 1
+bounds:2,141,90,188
+rotate:90
+2 2
+bounds:192,46,87,187
+3
+bounds:281,49,126,143
+4
+bounds:281,2,95,45
+offsets:1,1,97,48
+5 1
+bounds:135,235,60,167
+5 2
+bounds:2,70,69,171
+rotate:90
+5 3
+bounds:2,233,131,169
+5 4
+bounds:258,336,30,15
+offsets:1,1,32,17
+rotate:90
+5 5
+bounds:258,322,16,12
+offsets:1,1,18,14
+6 1
+bounds:70,26,42,109
+offsets:0,4,42,113
+rotate:90
+6 2
+bounds:181,7,37,48
+offsets:1,2,39,51
+rotate:90
+7
+bounds:2,20,48,66
+rotate:90
+8
+bounds:283,194,271,151
+rotate:90
+9
+bounds:197,320,59,82
+Layer 1
+bounds:2,404,279,61
+offsets:1,1,281,63
