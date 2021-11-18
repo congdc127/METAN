@@ -23,13 +23,13 @@ export default function Layout({ children }) {
                     type="image/x-icon"
                     charset="UTF-8"
                 />
+                
                 <link rel="stylesheet" href="/fonts/font-main/stylesheet.css" />
-                <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
 
-                <script src="http://esotericsoftware.com/files/spine-player/4.0/spine-player.js"></script>
+                <script src="https://esotericsoftware.com/files/spine-player/4.0/spine-player.js"></script>
                 <link
                     rel="stylesheet"
-                    href="http://esotericsoftware.com/files/spine-player/4.0/spine-player.css"
+                    href="https://esotericsoftware.com/files/spine-player/4.0/spine-player.css"
                 />
                 <link rel="stylesheet" href="/responsive.css" />
             </Head>
