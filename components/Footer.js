@@ -13,7 +13,7 @@ export default function Footer() {
                         <h4 className="text-brand">Links</h4>
                         <ul className="footer-nav">
                             {menuFooter.map((item, index) => (
-                                <li><a href={item.link} className="text-white" target={item.target}>{ item.title}</a></li>
+                                <li><a href={item.link} key={index} className="text-white" target={item.target}>{ item.title}</a></li>
                             ))}
                         </ul>
                     </div>

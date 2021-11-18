@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Slider from 'react-slick';
 import { Container, Row, Col } from 'react-bootstrap';
 import dataAdvisors from '/public/data/ourAdvisors';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css/navigation';
 
 export default function OurTeams() {
     return (
@@ -12,28 +14,54 @@ export default function OurTeams() {
                     <div className="hero-header">
                         <div className="hero-header-title">OUR ADVISORS</div>
                     </div>
-                    <Row className="justify-content-center">
-                        {dataAdvisors.map((item, index) => (
-                            <Col md={3} sm={4} xs={6}>
-                                <div
-                                    className="advisor-item text-center"
-                                    key={index}
-                                >
-                                    <div className="advisor-img">
-                                        <img src={item.image} />
+                    <div className="advisor-desktop d-none d-md-block">
+                        <Row className="justify-content-center">
+                            {dataAdvisors.map((item, index) => (
+                                <Col md={3} sm={4} xs={6}>
+                                    <div
+                                        className="advisor-item text-center"
+                                        key={index}
+                                    >
+                                        <div className="advisor-img">
+                                            <img src={item.image} />
+                                        </div>
+                                        <div className="advisor-meta">
+                                            <h5 className="advisor-name">
+                                                {item.name}
+                                            </h5>
+                                            <p className="advisor-desc">
+                                                {item.desc}
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="advisor-meta">
-                                        <h5 className="advisor-name">
-                                            {item.name}
-                                        </h5>
-                                        <p className="advisor-desc">
-                                            {item.desc}
-                                        </p>
+                                </Col>
+                            ))}
+                        </Row>
+                    </div>
+                    <div className="ourAdvisor-mobile d-md-none">
+                        <Swiper slidesPerView={2}>
+                            {dataAdvisors.map((item, index) => (
+                                <SwiperSlide key={index}>
+                                    <div
+                                        className="advisor-item text-center"
+                                        key={index}
+                                    >
+                                        <div className="advisor-img">
+                                            <img src={item.image} />
+                                        </div>
+                                        <div className="advisor-meta">
+                                            <h5 className="advisor-name">
+                                                {item.name}
+                                            </h5>
+                                            <p className="advisor-desc">
+                                                {item.desc}
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </Col>
-                        ))}
-                    </Row>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
+                    </div>
                 </div>
             </Container>
         </div>

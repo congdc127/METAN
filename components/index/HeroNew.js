@@ -25,6 +25,39 @@ export default function HeroNew() {
             <Container>
                 <Row>
                     <Col md={2}>
+                        <div className="slider-hero-mobile d-md-none">
+                            <Swiper
+                                spaceBetween={16}
+                                loop={false}
+                                breakpoints={{
+                                    320: {
+                                        slidesPerView: 5,
+                                        spaceBetween: 10,
+                                    },
+                                }}
+                            >
+                                {heroData.map((hero, index) => {
+                                    return (
+                                        <SwiperSlide>
+                                            <div
+                                                className="hero-ava-box"
+                                                onClick={() => {
+                                                    setHeroAnim(hero.heroId);
+                                                    setHeroMeta(
+                                                        heroData[index]
+                                                    );
+                                                }}
+                                            >
+                                                <img
+                                                    src={`/img/HeroAnim/ava/${hero.heroId}.png`}
+                                                    alt="hero-ava"
+                                                />
+                                            </div>
+                                        </SwiperSlide>
+                                    );
+                                })}
+                            </Swiper>
+                        </div>
                         <div className="hero-list-wrap">
                             <div className="hero-list">
                                 {heroData.map((hero, index) => {
@@ -54,12 +87,6 @@ export default function HeroNew() {
                                     CHOOSE YOUR
                                 </div>
                                 <div className="hero-header-title">HERO</div>
-                                <div className="hero-header-desc">
-                                    Whether you like to dive straight into the
-                                    fray, support your teammates, or something
-                                    in between, there’s a spot for you on the
-                                    Rift.
-                                </div>
                             </div>
                             <div className="hero-anim">
                                 <div className="body-stamp">

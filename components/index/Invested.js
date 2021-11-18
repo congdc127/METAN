@@ -15,7 +15,7 @@ export default function OurTeams() {
                     </div>
                     <Row>
                         {dataInvested.map((item, index) => (
-                            <Col md={3} sm={3} xs={4}>
+                            <Col md={3} xs={6}>
                                 <div className="invested-img" key={index}>
                                     <img
                                         className="scale-up"

@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import Slider from 'react-slick';
 import { Container, Row, Col } from 'react-bootstrap';
 import dataTeams from '/public/data/ourTeams';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css/navigation';
 
 export default function OurTeams() {
     return (
@@ -19,31 +20,54 @@ export default function OurTeams() {
                             expertise
                         </div>
                     </div>
-                    <Row>
-                        {dataTeams.map((item, index) => (
-                            <Col md={3} sm={4} xs={6}>
-                                <div
-                                    className="our-team-item translate-up"
-                                    key={index}
-                                >
-                                    <div className="our-team-ava">
-                                        <img src={item.image} />
+                    <div className="ourteam-desktop d-none d-md-block">
+                        <Row>
+                            {dataTeams.map((item, index) => (
+                                <Col md={3} sm={4} xs={6} key={index}>
+                                    <div className="our-team-item translate-up">
+                                        <div className="our-team-ava">
+                                            <img src={item.image} />
+                                        </div>
+                                        <div className="our-team-meta">
+                                            <h5 className="our-team-name">
+                                                {item.name}
+                                            </h5>
+                                            <p className="our-team-position">
+                                                {item.position}
+                                            </p>
+                                            <p className="our-team-desc">
+                                                {item.desc}
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="our-team-meta">
-                                        <h5 className="our-team-name">
-                                            {item.name}
-                                        </h5>
-                                        <p className="our-team-position">
-                                            {item.position}
-                                        </p>
-                                        <p className="our-team-desc">
-                                            {item.desc}
-                                        </p>
+                                </Col>
+                            ))}
+                        </Row>
+                    </div>
+                    <div className="ourTeam-mobile d-md-none">
+                        <Swiper slidesPerView={2}>
+                            {dataTeams.map((item, index) => (
+                                <SwiperSlide key={index}>
+                                    <div className="our-team-item">
+                                        <div className="our-team-ava">
+                                            <img src={item.image} />
+                                        </div>
+                                        <div className="our-team-meta">
+                                            <h5 className="our-team-name">
+                                                {item.name}
+                                            </h5>
+                                            <p className="our-team-position">
+                                                {item.position}
+                                            </p>
+                                            <p className="our-team-desc">
+                                                {item.desc}
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                            </Col>
-                        ))}
-                    </Row>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
+                    </div>
                 </div>
             </Container>
         </div>

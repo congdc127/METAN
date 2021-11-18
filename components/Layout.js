@@ -23,7 +23,7 @@ export default function Layout({ children }) {
                     type="image/x-icon"
                     charset="UTF-8"
                 />
-                
+
                 <link rel="stylesheet" href="/fonts/font-main/stylesheet.css" />
 
                 <script src="https://esotericsoftware.com/files/spine-player/4.0/spine-player.js"></script>
@@ -31,7 +31,14 @@ export default function Layout({ children }) {
                     rel="stylesheet"
                     href="https://esotericsoftware.com/files/spine-player/4.0/spine-player.css"
                 />
-                <link rel="stylesheet" href="/responsive.css" />
+                <script
+                    type="text/javascript"
+                    src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"
+                ></script>
+                <script
+                    type="text/javascript"
+                    src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"
+                ></script>
             </Head>
             <Navbar></Navbar>
             {children}
