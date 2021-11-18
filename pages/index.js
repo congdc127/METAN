@@ -48,9 +48,6 @@ export default function Home() {
                                 <HeroNew></HeroNew>
                             </div>
                             <div className="section">
-                                <News></News>
-                            </div>
-                            <div className="section">
                                 <Roadmaps></Roadmaps>
                             </div>
                             <div className="section">

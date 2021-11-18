@@ -1,110 +1,114 @@
 const dataRoadmap = [
     {
         id: '01',
-        title: 'OCT 2021',
+        title: 'Q4 2021',
         tasks: [
             {
-                title: 'Complete Play2Earn mechanism',
+                title: 'Init Project',
             },
             {
-                title: 'Release Website v2.0',
+                title: 'Project R&D',
             },
             {
-                title: 'Marketing events',
+                title: 'Build Team',
             },
             {
-                title: 'Testnet version (core team)',
+                title: 'Anpha Game (for Partner)',
+            },
+            {
+                title: 'Sale NFT, INO, IGO, IDO, Listing DEX',
             },
         ],
         class: 'active',
     },
     {
         id: '02',
-        title: 'NOV 2021',
+        title: 'Q1 2022',
         tasks: [
             {
-                title: 'SHO/IEO/SPO',
+                title: 'Marketplace',
             },
             {
-                title: 'Listing on DEX/CEX',
+                title: 'Beta Game Testnet',
             },
             {
-                title: 'Testnet version (for partners)',
+                title: 'Staking, Farming',
             },
             {
-                title: 'Testnet version (for communities)',
-            },
-            {
-                title: 'Game Asset Offering (GAO)',
-            },
-            {
-                title: 'Release MarketPlace V0.1',
+                title: 'Release Game (PvE, PvP, Quest)',
             },
         ],
-        class: 'start',
+        class: '',
     },
     {
         id: '03',
-        title: 'DEC 2021',
+        title: 'Q2 2022',
         tasks: [
             {
-                title: 'Release Mainnet V0.1',
+                title: 'Website ver2.0',
             },
             {
-                title: 'Mint NFT Heroes',
+                title: 'App Version',
             },
             {
-                title: 'Redeem packages',
+                title: 'PvP Ranking',
             },
             {
-                title: 'P2E: PvE, PvP, Quest, Clan',
+                title: 'Rent & share profits',
             },
             {
-                title: 'Release Marketplace V0.2',
+                title: 'Social ingame System(Guild, Friends)',
             },
         ],
         class: '',
     },
     {
         id: '04',
-        title: 'JAN 2022',
+        title: 'Q3 2022',
         tasks: [
             {
-                title: 'Adding Tournament PvP',
+                title: 'Social ingame Quest',
             },
             {
-                title: 'Mint NFT Gears, Items',
+                title: 'Tournament System',
             },
             {
-                title: 'Clans War/Clan Hunt',
+                title: 'Event System',
             },
             {
-                title: 'Social/Friends feature',
-            },
-            {
-                title: 'New PvE contents/features',
-            },
-            {
-                title: 'Release app version',
+                title: 'Battle Pass',
             },
         ],
         class: '',
     },
     {
         id: '05',
-        title: 'FEB 2022',
+        title: 'Q4 2022',
         tasks: [
             {
-                title: 'Release Full-game',
+                title: 'Guild Battle',
             },
             {
-                title: 'DAO',
+                title: 'Event Monthly',
             },
             {
-                title: 'Sidechain integration',
+                title: 'Guild Boss, World Boss',
+            },
+        ],
+        class: '',
+    },
+    {
+        id: '06',
+        title: 'Q1 2023',
+        tasks: [
+            {
+                title: 'Guild Events',
             },
             {
-                title: 'More PvE, PvP contents',
+                title: 'Content Game Monthly',
+            },
+            {
+                title: 'ZwLand (continue...)',
             },
         ],
         class: '',

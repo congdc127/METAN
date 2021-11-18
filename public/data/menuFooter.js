@@ -7,7 +7,7 @@ const menuFooter = [
     },   
     {
         id: '2',
-        title: 'Project Pitch Deck',
+        title: 'Project Documentation',
         link: '',
         target: '_blank'
     },

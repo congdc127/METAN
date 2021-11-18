@@ -15,10 +15,6 @@ const dataInvested = [
         id: '4',
         image: '/img/unity.png'
     },
-    {
-        id: '5',
-        image: '/img/roketstudio.png'
-    },
     
 ];
 

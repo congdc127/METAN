@@ -48,29 +48,16 @@ export default function Navbar() {
                                     }`}
                                 >
                                     <ul className="top-nav">
-                                        <li className="top-nav-item">
-                                            <a href="" target="_blank">
-                                                HOME
-                                            </a>
-                                        </li>
+                                        
                                         <li className="top-nav-item">
                                             <a href="" target="_blank">
                                                 METAN EVOLUTION
                                             </a>
                                         </li>
+                                        
                                         <li className="top-nav-item">
                                             <a href="" target="_blank">
-                                                ROADMAP
-                                            </a>
-                                        </li>
-                                        <li className="top-nav-item">
-                                            <a href="" target="_blank">
-                                                MARKETPLACE
-                                            </a>
-                                        </li>
-                                        <li className="top-nav-item">
-                                            <a href="" target="_blank">
-                                                WHITE PAPER
+                                                DOCS
                                             </a>
                                         </li>
                                     </ul>
@@ -97,7 +84,7 @@ export default function Navbar() {
                                 <img src="/img/play_now.png" className="icon" />
                                 <a
                                     className="text"
-                                    href="http://ailaai.tk/webapp/aa/"
+                                    href="#"
                                     target="_blank"
                                 ></a>
                             </a>
