@@ -26,11 +26,12 @@ export default function Layout({ children }) {
 
                 <link rel="stylesheet" href="/fonts/font-main/stylesheet.css" />
 
-                <script src="https://esotericsoftware.com/files/spine-player/4.0/spine-player.js"></script>
+                <script src="/plugins/spine-player-4.js"></script>
+                {/* <script src="http://esotericsoftware.com/files/spine-player/4.0/spine-player.js" /> */}
                 <link
                     rel="stylesheet"
-                    href="https://esotericsoftware.com/files/spine-player/4.0/spine-player.css"
-                />
+                    href="http://esotericsoftware.com/files/spine-player/4.0/spine-player.css"
+                ></link>
                 <script
                     type="text/javascript"
                     src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"
