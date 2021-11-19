@@ -82,11 +82,6 @@ export default function Navbar() {
                                 className="signature-button button-effect"
                             >
                                 <img src="/img/play_now.png" className="icon" />
-                                <a
-                                    className="text"
-                                    href="#"
-                                    target="_blank"
-                                ></a>
                             </a>
                         </div>
                     </div>

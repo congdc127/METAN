@@ -2030,6 +2030,14 @@ html #fp-nav {
     .block-ship .ship-meta-right .img img {
         padding: 10px;
     }
+    .token-circle{
+        display: none;
+    }
+
+    #chart{
+        width: 100%;
+        height: 300px;
+    }
 }
 
 @media (max-width: 375px) {

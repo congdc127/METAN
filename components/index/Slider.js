@@ -34,9 +34,9 @@ export default function Slide() {
                 <svg
                     stroke="currentColor"
                     fill="none"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 24 24"
-                    class="scroll-icon"
+                    className="scroll-icon"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -50,8 +50,8 @@ export default function Slide() {
                         fill="currentColor"
                     ></path>
                     <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M12 9.00018C13.6569 9.00018 15 10.3433 15 12.0002C15 13.657 13.6569 15.0002 12 15.0002C10.3431 15.0002 9 13.657 9 12.0002C9 10.3433 10.3431 9.00018 12 9.00018ZM12 11.0002C12.5523 11.0002 13 11.4479 13 12.0002C13 12.5525 12.5523 13.0002 12 13.0002C11.4477 13.0002 11 12.5525 11 12.0002C11 11.4479 11.4477 11.0002 12 11.0002Z"
                         fill="currentColor"
                     ></path>

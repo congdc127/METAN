@@ -38,7 +38,7 @@ export default function HeroNew() {
                             >
                                 {heroData.map((hero, index) => {
                                     return (
-                                        <SwiperSlide>
+                                        <SwiperSlide key={index}>
                                             <div
                                                 className="hero-ava-box"
                                                 onClick={() => {
@@ -63,6 +63,7 @@ export default function HeroNew() {
                                 {heroData.map((hero, index) => {
                                     return (
                                         <div
+                                            key={index}
                                             className="hero-ava-box"
                                             onClick={() => {
                                                 setHeroAnim(hero.heroId);
