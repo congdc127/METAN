@@ -1658,6 +1658,48 @@ html #fp-nav {
     z-index: 20 !important;
 }
 
+html #fp-nav ul li .fp-tooltip {
+    width: auto !important;
+    opacity: 1 !important;
+}
+
+html #fp-nav ul li,
+html .fp-slidesNav ul li {
+    margin: 40px 7px;
+}
+
+#fp-nav ul::before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    display: block;
+    background: #e74e11 !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    z-index: -1;
+    top: -50%;
+}
+
+#fp-nav ul li a.active + .fp-tooltip.fp-left {
+    font-weight: bold;
+    color: #e74e11;
+}
+
+#fp-nav ul li .fp-tooltip.fp-left {
+    font-size: 14px;
+}
+
+#fp-nav ul li .fp-tooltip.fp-left:hover {
+    color: #e74e11;
+    font-weight: bold;
+}
+
+footer {
+    background: url(/img/bg-token.jpg) no-repeat center;
+    background-size: cover;
+}
+
 @media (min-width: 1600px) {
     .container {
         max-width: 1520px;
@@ -1916,7 +1958,7 @@ html #fp-nav {
     .hero-new-wrap .container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         height: 100%;
     }
 
@@ -2030,13 +2072,17 @@ html #fp-nav {
     .block-ship .ship-meta-right .img img {
         padding: 10px;
     }
-    .token-circle{
+    .token-circle {
         display: none;
     }
 
-    #chart{
+    #chart {
         width: 100%;
         height: 300px;
+    }
+
+    html #fp-nav{
+        display: none;
     }
 }
 

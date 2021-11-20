@@ -10,18 +10,23 @@ export default function Video() {
 
     return (
         <div className="block block-video" id="">
-            <Button variant="primary" onClick={() => setShow(true)}><img src="/img/play.png" /></Button>
+            <Button variant="primary" onClick={() => setShow(true)}>
+                <img src="/img/play.png" />
+            </Button>
 
-            <Modal show={show} onHide={() => setShow(false)} dialogClassName="modal-90w" aria-labelledby="example-custom-modal-styling-title" >
+            <Modal
+                show={show}
+                onHide={() => setShow(false)}
+                dialogClassName="modal-90w"
+                aria-labelledby="example-custom-modal-styling-title"
+            >
                 <Modal.Body>
                     <video controls autoPlay>
                         <source src="/video/intro.mp4" type="video/mp4" />
                         <source src="/video/intro.ogg" type="video/ogg" />
-	                </video>
+                    </video>
                 </Modal.Body>
             </Modal>
-
         </div>
-
     );
 }

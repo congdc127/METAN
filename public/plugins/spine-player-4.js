@@ -14959,18 +14959,18 @@ var spine = (() => {
             this.tempColor = new Color();
             this.renderer = renderer;
             this.timeKeeper.maxDelta = 9;
-            if (!logoImage) {
-                let isSafari = navigator.userAgent.indexOf('Safari') > -1;
-                let onload = () => loaded++;
-                logoImage = new Image();
-                logoImage.src = SPINE_LOGO_DATA;
-                if (!isSafari) logoImage.crossOrigin = 'anonymous';
-                logoImage.onload = onload;
-                spinnerImage = new Image();
-                spinnerImage.src = SPINNER_DATA;
-                if (!isSafari) spinnerImage.crossOrigin = 'anonymous';
-                spinnerImage.onload = onload;
-            }
+            // if (!logoImage) {
+            //     let isSafari = navigator.userAgent.indexOf('Safari') > -1;
+            //     let onload = () => loaded++;
+            //     logoImage = new Image();
+            //     logoImage.src = SPINE_LOGO_DATA;
+            //     if (!isSafari) logoImage.crossOrigin = 'anonymous';
+            //     logoImage.onload = onload;
+            //     spinnerImage = new Image();
+            //     spinnerImage.src = SPINNER_DATA;
+            //     if (!isSafari) spinnerImage.crossOrigin = 'anonymous';
+            //     spinnerImage.onload = onload;
+            // }
         }
         draw(complete = false) {
             if (loaded < 2 || (complete && this.fadeOut > FADE_OUT)) return;

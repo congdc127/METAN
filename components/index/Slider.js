@@ -25,7 +25,7 @@ export default function Slide() {
 
     return (
         <div className="block block-slider" id="slider">
-            <video autoPlay muted loop>
+            <video data-autoplay muted loop>
                 <source src="/video/intro.mp4" type="video/mp4" />
                 <source src="/video/intro.ogg" type="video/ogg" />
             </video>

@@ -15,12 +15,35 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import HeroNew from '../components/index/HeroNew';
 import Footer from '../components/Footer';
 
+import { useEffect } from 'react';
+
 export default function Home() {
+    useEffect(() => {
+        let toolTips = document.querySelectorAll('.fp-tooltip');
+        toolTips.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                item.previousElementSibling.click();
+            });
+        });
+    }, []);
     return (
         <div className="home-content">
             <ReactFullpage
                 scrollingSpeed={1000} /* Options here */
                 navigation={true}
+                navigationPosition={'left'}
+                navigationTooltips={[
+                    'Homepage',
+                    'Game Introduction',
+                    'Game Play',
+                    'Tokenomic',
+                    'Hero',
+                    'Road Map',
+                    'Our Team',
+                    'Our Advisiors',
+                    'Invested & Supported By',
+                    'Footer',
+                ]}
                 onLeave={(origin, destination, direction) => {
                     let menuBar = document.querySelector('#box-header');
                     if (destination.index > 0) {
