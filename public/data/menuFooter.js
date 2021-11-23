@@ -7,7 +7,7 @@ const menuFooter = [
     },   
     {
         id: '2',
-        title: 'Project Documentation',
+        title: 'White papper',
         link: '',
         target: '_blank'
     },
