@@ -13,7 +13,7 @@ export default function OurTeams() {
                             INVESTED & SUPPORTED BY
                         </div>
                     </div>
-                    <Row>
+                    <Row className="justify-content-center">
                         {dataInvested.map((item, index) => (
                             <Col md={3} xs={6}>
                                 <div className="invested-img" key={index}>

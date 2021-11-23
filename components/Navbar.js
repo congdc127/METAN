@@ -5,23 +5,6 @@ import { Col } from 'react-bootstrap';
 import logoMobile from '/public/img/logo.png';
 
 export default function Navbar() {
-    // const navRef = useRef(null);
-
-    // const handleScroll = () => {
-    //     console.log(window.scrollY);
-    //     if (window.scrollY > 0) {
-    //         navRef.current.classList.add('stuck');
-    //     } else {
-    //         navRef.current.classList.remove('stuck');
-    //     }
-    // };
-
-    // useEffect(() => {
-    //     //console.log(123);
-    //     //document.addEventListener('scroll', handleScroll);
-    //     // return () => window.removeEventListener('scroll', handleScroll);
-    // }, []);
-
     const [show, setShow] = useState(false);
     const onToggleClick = () => {
         setShow(!show);
@@ -48,13 +31,12 @@ export default function Navbar() {
                                     }`}
                                 >
                                     <ul className="top-nav">
-                                        
                                         <li className="top-nav-item">
                                             <a href="" target="_blank">
                                                 METAN EVOLUTION
                                             </a>
                                         </li>
-                                        
+
                                         <li className="top-nav-item">
                                             <a href="" target="_blank">
                                                 DOCS
@@ -74,15 +56,16 @@ export default function Navbar() {
                                 </div>
                                 <div className="d-block d-md-none hamber"></div>
                             </Col>
-                            <Col md={2}></Col>
-                        </div>
-                        <div className="signature-wrapper">
-                            <a
-                                href="#"
-                                className="signature-button button-effect"
-                            >
-                                <img src="/img/play_now.png" className="icon" />
-                            </a>
+                            <Col md={2}>
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    class="header__link"
+                                >
+                                    <span></span>Play Now
+                                </a>
+                            </Col>
                         </div>
                     </div>
                 </div>

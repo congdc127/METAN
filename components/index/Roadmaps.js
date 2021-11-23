@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Slider from 'react-slick';
 import { Container, Row, Col } from 'react-bootstrap';
 import dataRoadmap from '/public/data/roadmapData';
+import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
 
@@ -38,8 +39,18 @@ export default function OurTeams() {
                             </div>
                         ))}
                     </div>
-                    <div className="roadmap-mobile roadmap-ul d-md-none">
-                        <Swiper >
+                    <div className="roadmap-mobile roadmap-ul d-md-none position-relative">
+                        <div className="navigation-button prevNew prevNew3">
+                            <img src="/img/nav_arrow.png" alt="prev" />
+                        </div>
+                        <Swiper
+                            slidesPerView={1}
+                            modules={[Navigation]}
+                            navigation={{
+                                nextEl: '.nextNew3',
+                                prevEl: '.prevNew3',
+                            }}
+                        >
                             {dataRoadmap.map((item, index) => (
                                 <SwiperSlide key={index}>
                                     <div
@@ -66,6 +77,9 @@ export default function OurTeams() {
                                 </SwiperSlide>
                             ))}
                         </Swiper>
+                        <div className="navigation-button nextNew nextNew3">
+                            <img src="/img/nav_arrow.png" alt="prev" />
+                        </div>
                     </div>
                 </div>
             </Container>

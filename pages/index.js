@@ -16,6 +16,7 @@ import HeroNew from '../components/index/HeroNew';
 import Footer from '../components/Footer';
 
 import { useEffect } from 'react';
+import GamePlay from '../components/index/GamePlay';
 
 export default function Home() {
     useEffect(() => {
@@ -35,6 +36,7 @@ export default function Home() {
                 navigationTooltips={[
                     'Homepage',
                     'Game Introduction',
+                    'Play More',
                     'Game Play',
                     'Tokenomic',
                     'Hero',
@@ -44,7 +46,19 @@ export default function Home() {
                     'Invested & Supported By',
                     'Footer',
                 ]}
+                afterLoad={(origin, destination, direction) => {
+                    if (destination.index === 0) {
+                        document
+                            .querySelector('#fp-nav')
+                            .classList.add('inactive');
+                    } else {
+                        document
+                            .querySelector('#fp-nav')
+                            .classList.remove('inactive');
+                    }
+                }}
                 onLeave={(origin, destination, direction) => {
+                    console.log(destination);
                     let menuBar = document.querySelector('#box-header');
                     if (destination.index > 0) {
                         menuBar.classList.add('stuck');
@@ -63,6 +77,9 @@ export default function Home() {
                             </div>
                             <div className="section">
                                 <Play></Play>
+                            </div>
+                            <div className="section">
+                                <GamePlay></GamePlay>
                             </div>
                             <div className="section">
                                 <Token></Token>

@@ -1,59 +1,61 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import dataAbout from '/public/data/about';
+import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
 
 export default function Token() {
     useEffect(() => {
-        window.onload = () => {
-            let options = {
-                animationEnabled: true,
-                exportEnabled: false,
+        // Load the Visualization API and the corechart package.
+        google.charts.load('current', { packages: ['corechart'] });
+
+        // Set a callback to run when the Google Visualization API is loaded.
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Callback that creates and populates a data table,
+        // instantiates the pie chart, passes in the data and
+        // draws it.
+        function drawChart() {
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Slices');
+
+            data.addRows([
+                ['Public Sale', 1.5],
+                ['Seed Sale', 4],
+                ['Private Sale', 11],
+                ['EcoSystem', 25],
+                ['Marketing & Advisor', 15],
+                ['Team', 15],
+                ['Reward in Game', 28.5],
+            ]);
+
+            // Set chart options
+            var options = {
+                height: 400,
+                is3D: true,
                 backgroundColor: 'transparent',
-                data: [
-                    {
-                        indexLabelFontColor: 'white',
-                        indexLabelFontStyle: 'bold',
-                        type: 'pie',
-                        indexLabel: '{label}: {y}%',
-                        startAngle: -90,
-                        dataPoints: [
-                            {
-                                y: 1.5,
-                                label: 'Public Sale',
-                            },
-                            {
-                                y: 4,
-                                label: 'Seed Sale',
-                            },
-                            {
-                                y: 11,
-                                label: 'Private Sale',
-                            },
-                            {
-                                y: 25,
-                                label: 'EcoSystem',
-                            },
-                            {
-                                y: 15,
-                                label: 'Marketing & Advisor',
-                            },
-                            {
-                                y: 15,
-                                label: 'Team',
-                            },
-                            {
-                                y: 28.5,
-                                label: 'Reward in Game',
-                            },
-                        ],
+                chartArea: {
+                    right: 0,
+                    bottom: 0,
+                    width: '100%',
+                    height: '100%',
+                },
+                legend: {
+                    textStyle: {
+                        color: '#fff',
                     },
-                ],
+                },
             };
 
-            $('#chart').CanvasJSChart(options);
-        };
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.PieChart(
+                document.getElementById('chart')
+            );
+            chart.draw(data, options);
+        }
     }, []);
 
     return (
@@ -92,10 +94,18 @@ export default function Token() {
                             <div id="chart"></div>
                         </Col>
                     </Row>
-                    <div className="token-slider">
+                    <div className="token-slider position-relative">
+                        <div className="navigation-button prevNew prevNew2">
+                            <img src="/img/nav_arrow.png" alt="prev" />
+                        </div>
                         <Swiper
                             spaceBetween={15}
                             loop={false}
+                            modules={[Navigation]}
+                            navigation={{
+                                nextEl: '.nextNew2',
+                                prevEl: '.prevNew2',
+                            }}
                             breakpoints={{
                                 320: {
                                     slidesPerView: 2,
@@ -180,6 +190,9 @@ export default function Token() {
                                 </div>
                             </SwiperSlide>
                         </Swiper>
+                        <div className="navigation-button nextNew nextNew2">
+                            <img src="/img/nav_arrow.png" alt="prev" />
+                        </div>
                     </div>
                 </div>
             </Container>

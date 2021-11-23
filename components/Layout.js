@@ -27,19 +27,11 @@ export default function Layout({ children }) {
                 <link rel="stylesheet" href="/fonts/font-main/stylesheet.css" />
 
                 <script src="/plugins/spine-player-4.js"></script>
-                {/* <script src="http://esotericsoftware.com/files/spine-player/4.0/spine-player.js" /> */}
                 <link
                     rel="stylesheet"
                     href="http://esotericsoftware.com/files/spine-player/4.0/spine-player.css"
                 ></link>
-                <script
-                    type="text/javascript"
-                    src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"
-                ></script>
-                <script
-                    type="text/javascript"
-                    src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"
-                ></script>
+                <script src="https://www.gstatic.com/charts/loader.js"></script>
             </Head>
             <Navbar></Navbar>
             {children}
