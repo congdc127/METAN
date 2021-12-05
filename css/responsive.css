@@ -1,0 +1,673 @@
+@media (max-width: 1440px) {
+    .tokenomics-chart img {
+        width: 80%;
+    }
+
+    .tokenomics-chart {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pte-item-desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+    #menu-fullpage li a {
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+
+    #menu-fullpage::before {
+        width: 2px;
+        left: 4px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu-link {
+        margin: 0 30px;
+    }
+
+    .banner-title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .banner-subtitle {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .video-zombie2 {
+        right: 50px;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    .slide-item-img {
+        height: 200px;
+    }
+
+    .slide-item {
+        min-height: auto;
+    }
+
+    .tokenomics-chart img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu-link {
+        margin: 0 20px;
+        font-size: 14px;
+    }
+
+    .team-name {
+        font-size: 14px;
+    }
+
+    .tokenomics-item {
+        padding: 10px 10px 10px 26px;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 0;
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 0;
+    }
+
+    .nav-new {
+        width: 14px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .block {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    html .block-content,
+    html .block,
+    html .fp-tableCell {
+        height: auto !important;
+    }
+
+    .block {
+        padding: 20px 0;
+    }
+
+    .pte-slide-item .row {
+        padding: 0;
+    }
+
+    body {
+        background-size: cover;
+    }
+
+    .menu-link {
+        text-align: left;
+    }
+
+    #menu-fullpage {
+        display: none;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    .logo img {
+        height: 60px;
+        width: auto;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .header-main {
+        background-image: none;
+        background-color: black;
+    }
+
+    .menu-mobile .logo {
+        max-width: 100px;
+    }
+
+    .menu-mobile {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .store-btn {
+        width: 120px;
+    }
+
+    .about-desc,
+    .about-video {
+        margin: 40px 0;
+    }
+
+    .video-zombie2 {
+        width: 250px;
+    }
+
+    .video-zombie2 img {
+        width: 100%;
+    }
+
+    .video-zombie1 {
+        width: 140px;
+        left: -10%;
+        transform: unset;
+    }
+
+    .video-zombie1 img {
+        width: 100%;
+    }
+
+    .about-video {
+        margin: 111px auto;
+    }
+
+    .slide-item-img {
+        height: 130px;
+    }
+
+    .slide-item {
+        min-height: auto;
+    }
+
+    .pte-img img {
+        width: 80%;
+    }
+
+    .pte-item {
+        margin: 40px 0;
+    }
+
+    .hero-concept1 {
+        z-index: 2;
+    }
+
+    .hero-concept3 {
+        z-index: 3;
+        left: -44px;
+    }
+
+    .concept-slide-item {
+        max-height: 230px;
+    }
+
+    .game-concept-slide {
+        margin: 40px 0;
+    }
+
+    .game-mode-name {
+        margin: 10px 0 20px;
+    }
+
+    .block-title {
+        margin-bottom: 30px;
+    }
+
+    .tokenomics-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .tokenomics-content .tokenomics-item {
+        width: calc(50% - 10px);
+        padding: 10px 30px 10px 40px;
+    }
+
+    .roadmap-item {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .roadmap-date {
+        width: 68px;
+        height: 68px;
+    }
+
+    .roadmap-date .month {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .roadmap-date .year {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .roadmap-list {
+        margin-top: 0;
+        text-align: left;
+        width: calc(100% - 68px);
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+
+    .roadmap-content-bar {
+        width: 2px;
+        height: 100%;
+        left: 32px;
+    }
+
+    .roadmap-content {
+        margin-top: 0;
+    }
+
+    .team-ava {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .invested-item {
+        margin: 0;
+    }
+
+    .invested-item img {
+        width: 100%;
+    }
+
+    .logo-footer {
+        margin-bottom: 14px;
+    }
+
+    .dowload-item {
+        width: 25%;
+    }
+
+    .tokenomics-chart {
+        padding: 20px 12px;
+    }
+
+    .game-concept-desc {
+        padding: 0;
+        text-align: center;
+    }
+
+    .concept-slide-item {
+        max-height: unset;
+        height: 400px;
+    }
+
+    .block.block-banner {
+        height: 100vh !important;
+        padding: 0;
+    }
+
+    .pte-item-desc {
+        margin-bottom: 14px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .block {
+        padding: 50px 0;
+    }
+
+    .social-btn-group {
+        bottom: 0;
+        top: unset;
+    }
+
+    .about-desc {
+        text-align: center;
+    }
+
+    main {
+        overflow: hidden;
+    }
+
+    .block-title {
+        margin-bottom: 30px;
+    }
+
+    .menu-mobile .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .banner-subtitle {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .banner-btn::after {
+        display: none;
+    }
+
+    .banner-btn {
+        margin-right: 20px;
+    }
+
+    .block-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .about-btn-group {
+        flex-direction: column;
+        margin: 50px 0 10px;
+    }
+
+    .store-group {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .store-btn {
+        width: calc((100% / 3) - 10px);
+        margin: 10px 0;
+    }
+
+    .about-btn-group::before {
+        display: none;
+    }
+
+    .about-btn {
+        margin: 0 auto 20px;
+    }
+
+    .about-desc {
+        margin: 10px 0;
+    }
+
+    .about-desc p {
+        font-size: 16px;
+    }
+
+    .about-video-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-video-content video {
+        width: 90%;
+        height: 200px;
+    }
+
+    .video-zombie1 {
+        left: 0;
+        width: 100px;
+        transform: none;
+    }
+
+    .video-zombie img {
+        width: 100%;
+    }
+
+    .video-zombie2 {
+        right: 0;
+        width: 150px;
+        transform: none;
+        bottom: -70px;
+    }
+
+    .about-video-content::before {
+        width: 502px;
+        height: 350px;
+        top: -76px;
+        right: -57px;
+    }
+
+    .about-video {
+        margin: 50px 0;
+        max-width: 100%;
+    }
+
+    .skill-item {
+        width: 60px;
+        height: 60px;
+    }
+
+    .hero-body {
+        width: 60%;
+    }
+
+    .hero-base img {
+        width: 100%;
+    }
+
+    .hero-player {
+        width: 270%;
+        bottom: 50px;
+        left: -86%;
+    }
+
+    .slide-item-img {
+        height: 100px;
+    }
+
+    .slide-item {
+        min-height: unset;
+    }
+
+    .slide-item-name {
+        font-size: 16px;
+        padding: 4px 0;
+    }
+
+    .nav-new {
+        width: 20px;
+        height: 26px;
+    }
+
+    .block-hero .block-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-background {
+        font-size: 16px;
+    }
+
+    .hero-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hero-slide {
+        margin-top: 20px;
+    }
+
+    .pte-item {
+        margin: 20px 0;
+    }
+
+    .pte-img img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .pte-item-desc {
+        font-size: 16px;
+    }
+
+    .hero-concept img {
+        width: 100%;
+    }
+
+    .hero-concept2 {
+        width: 160px;
+    }
+
+    .hero-concept1 {
+        width: 150px;
+    }
+
+    .hero-concept3 {
+        width: 130px;
+    }
+
+    .hero-group {
+        min-height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .game-concept-desc .block-desc {
+        font-size: 16px;
+    }
+
+    .game-concept-desc .block-title {
+        margin-bottom: 20px;
+    }
+
+    .game-concept-slide {
+        margin: 30px 0;
+    }
+
+    .game-mode-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    .game-mode-name {
+        margin-top: 10px;
+    }
+
+    .logo-footer {
+        margin-bottom: 20px;
+    }
+
+    .menu-footer-list {
+        margin-bottom: 14px;
+    }
+
+    .menu-footer-title {
+        margin-top: 5px;
+    }
+
+    .menu-link {
+        height: auto;
+        line-height: unset;
+    }
+
+    .tokenomics-content .tokenomics-item {
+        width: 100%;
+    }
+
+    .tokenomics-chart img {
+        width: 100%;
+    }
+
+    .block-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .background-title {
+        font-size: 16px;
+    }
+
+    .pte-item-title {
+        font-size: 22px;
+    }
+
+    .mode-logo {
+        display: none;
+    }
+
+    .table-striped th {
+        vertical-align: middle;
+        font-size: 16px;
+    }
+
+    .table-striped td {
+        vertical-align: middle;
+    }
+
+    .comming-content {
+        background-image: url('../img/Web-BG/Home-mobile.png');
+    }
+
+    .comming-content {
+        justify-content: flex-start;
+        padding-top: 20vh;
+        align-items: center;
+        text-align: center;
+    }
+
+    .comming-content h2 {
+        font-size: 30px;
+    }
+
+    .video-bg {
+        position: relative;
+    }
+
+    #video-banner {
+        width: 100%;
+        height: auto;
+        object-fit: none;
+    }
+
+    .block.block-banner::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #00000057;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .video-zombie {
+        display: none;
+    }
+
+    .about-video {
+        margin-bottom: 0;
+    }
+
+    .block-banner .block-content {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #video-banner {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .block-banner{
+        background-image: url('../img/Web-BG/GameConcept.jpg');
+    }
+}
+
+@media (min-width: 1440px) {
+    .tokenomics-chart {
+        padding-top: 22px;
+    }
+}

@@ -1,0 +1,122 @@
+heroes1.png
+size:443,523
+filter:Linear,Linear
+pma:true
+7 2 1
+bounds:233,414,18,14
+offsets:1,1,20,16
+rotate:90
+7 2 1 2
+bounds:271,18,10,10
+offsets:1,1,12,12
+7 2 2
+bounds:383,42,25,13
+offsets:1,1,27,15
+7 2 2 2
+bounds:233,401,11,11
+offsets:1,1,13,13
+Fire-Loob-Stylize/Fire-Loob-Stylize-Cyan/011
+bounds:294,89,39,53
+offsets:7,2,50,59
+Fire-Loob-Stylize/Fire-Loob-Stylize-Cyan/03
+bounds:249,151,47,56
+offsets:1,2,50,59
+Fire-Loob-Stylize/Fire-Loob-Stylize-Cyan/06
+bounds:2,4,43,56
+offsets:5,2,50,59
+rotate:90
+Fire-Loob-Stylize/Fire-Loob-Stylize-Cyan/09
+bounds:298,144,35,51
+offsets:8,2,50,59
+Layer 66
+bounds:425,136,27,16
+offsets:1,2,29,19
+rotate:90
+Layer 67
+bounds:425,116,18,16
+offsets:1,2,21,19
+rotate:90
+fx-1/fx-1-Cyan/13
+bounds:337,361,71,104
+offsets:28,10,150,150
+rotate:90
+fx-1/fx-1-Cyan/16
+bounds:335,95,69,88
+offsets:30,12,150,150
+rotate:90
+fx-1/fx-1-Cyan/5
+bounds:335,166,71,89
+offsets:32,40,150,150
+rotate:90
+fx-1/fx-1-Cyan/9
+bounds:142,30,66,107
+offsets:28,16,150,150
+rotate:90
+nen
+bounds:249,209,223,50
+rotate:90
+w 1 1
+bounds:60,5,21,70
+offsets:1,1,23,73
+rotate:90
+w 1 2
+bounds:296,28,28,59
+w 1 3
+bounds:416,74,19,25
+offsets:1,1,21,27
+rotate:90
+w 2 1
+bounds:2,49,61,157
+w 2 2
+bounds:233,434,87,158
+rotate:90
+w 3 3
+bounds:301,273,34,159
+w 5 1
+bounds:335,57,36,79
+rotate:90
+w 5 2
+bounds:142,2,26,71
+rotate:90
+w 5 3
+bounds:251,30,29,43
+rotate:90
+w 6 1
+bounds:65,28,71,75
+rotate:90
+w 6 2
+bounds:251,61,88,41
+rotate:90
+w 6 3
+bounds:426,165,11,72
+w 6 4
+bounds:65,101,77,105
+w 6 5
+bounds:416,54,18,25
+rotate:90
+w 7 1
+bounds:337,281,78,103
+rotate:90
+w 7 2
+bounds:2,208,144,191
+w 7 3
+bounds:148,174,99,225
+w 7 4
+bounds:337,239,101,40
+w 7 5
+bounds:326,34,21,55
+rotate:90
+w 7 6
+bounds:215,5,23,54
+rotate:90
+w 7 7
+bounds:2,401,229,120
+w 8 1
+bounds:301,197,32,74
+w 8 2
+bounds:393,438,83,44
+rotate:90
+w fx
+bounds:144,98,74,101
+offsets:2,1,77,104
+rotate:90

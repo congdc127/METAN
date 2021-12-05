@@ -1,0 +1,1295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #886234;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0bc6ca;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f69c2b;
+}
+
+* {
+    cursor: url('../img/cursor.png') 0 0, auto;
+}
+
+main {
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    background: #000000;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ec490d;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+    background: #08042e6e;
+    border-bottom: 4px solid black;
+}
+
+.menu-item {
+    display: block;
+}
+
+.menu-link {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    margin-left: 14px;
+}
+
+.link-logo img {
+    width: auto;
+    height: 60px;
+}
+
+.block {
+    overflow: hidden;
+}
+
+.block-title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Saira';
+    margin-bottom: 80px;
+}
+
+.block-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* Block Banner */
+.block-banner {
+    padding: 0;
+    height: 100vh;
+    background-image: url('../img/Web-BG/Home.png');
+    background-size: cover;
+    background-position: 0 -63px;
+    overflow: hidden;
+}
+
+@media (max-width: 567px) {
+    .block-banner {
+        background-image: url('../img/Web-BG/Home-mobile.png');
+        background-position: right;
+    }
+
+    .block-banner .block-content {
+        height: 100% !important;
+        align-items: flex-start !important;
+        padding-top: 30% !important;
+    }
+}
+
+.block-banner .block-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+
+.banner-title,
+.banner-subtitle {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Saira';
+    position: relative;
+}
+
+.banner-title {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.banner-subtitle {
+    font-size: 65px;
+}
+
+.banner-desc {
+    color: white;
+    font-size: 24px;
+    font-family: 'Saira';
+}
+
+.banner-btn,
+.about-btn {
+    display: block;
+    position: relative;
+    width: 193px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    background-image: url('../img/button.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 80px;
+}
+
+.menu-link:hover {
+    color: #ec490d;
+}
+
+.banner-btn:hover {
+    color: #ec490d;
+}
+
+.banner-btn::after {
+    content: '';
+    position: absolute;
+    width: 259.5px;
+    height: 29px;
+    left: 0;
+    bottom: -10px;
+    background-image: url(https://asset.wonderhero.io/static/images/newpage/buttonline.png);
+    background-size: 100% 100%;
+}
+
+.banner-footer {
+    display: flex;
+    align-items: center;
+}
+
+.banner-social {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.social-item {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.social-item:hover {
+    opacity: 0.8;
+}
+
+.social-item img {
+    width: 100%;
+    height: 100%;
+}
+
+/* About */
+.block-about .block-title {
+    margin-bottom: 40px;
+}
+
+.about-btn-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 50px 0;
+}
+
+.about-btn-group::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #ccca52;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    z-index: -1;
+}
+
+.store-btn {
+    width: 170px;
+    display: block;
+}
+
+.store-btn img {
+    width: 100%;
+}
+
+.store-group {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-about {
+    background-image: url('../img/Web-BG/About.jpg');
+    background-size: 100% 100%;
+}
+
+.about-desc {
+    color: #bab0cd;
+    font-size: 20px;
+    font-family: 'Saira';
+}
+
+.about-desc,
+.about-video {
+    margin: 70px 0;
+}
+
+.about-video {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+}
+
+.video-zombie {
+    position: absolute;
+    z-index: 2;
+}
+
+.about-video-content {
+    position: relative;
+    width: 100%;
+    text-align: right;
+    z-index: 3;
+}
+
+/* .about-video-content::before {
+    content: '';
+    width: 800px;
+    background-image: url(https://asset.wonderhero.io/static/images/newpage/box.png);
+    background-size: 100% 100%;
+    display: block;
+    height: 520px;
+    z-index: -1;
+    position: absolute;
+    top: -117px;
+    right: -120px;
+} */
+
+.about-video-content video {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    border-radius: 14px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 4px solid #faf85b;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.video-zombie1 {
+    left: -20%;
+    top: -20%;
+    transform: translateX(50%);
+}
+
+.video-zombie2,
+.video-zombie3,
+.video-zombie4 {
+    z-index: 1;
+}
+
+.video-zombie2 {
+    right: -340px;
+    top: 50%;
+    /* width: 240px; */
+    transform: translateY(-50%);
+}
+
+.video-zombie3 {
+    right: -300px;
+    top: 10%;
+    /* width: 240px; */
+    transform: translateY(-50%);
+}
+
+.video-zombie4 {
+    right: -440px;
+    top: 30%;
+    /* width: 240px; */
+    transform: translateY(-50%);
+}
+
+.video-zombie2 img {
+    width: 80%;
+}
+
+.video-zombie3 img {
+    width: 50%;
+    opacity: 0.6;
+}
+
+.video-zombie4 img {
+    width: 40%;
+    opacity: 0.4;
+}
+
+/* Hero */
+.block-hero {
+    background-image: url('../img/Web-BG/ChoseYourHeroes.jpg');
+    background-size: 100% 100%;
+}
+
+.block-hero .block-title {
+    text-align: left;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.hero-name {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.hero-name p {
+    display: inline-block;
+    margin: 0;
+    padding-right: 14px;
+}
+
+.hero-name::before {
+    content: '';
+    display: block;
+    width: 75%;
+    height: 4px;
+    background-color: white;
+    top: 54%;
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.background-title {
+    color: white;
+    font-weight: bold;
+    font-family: 'Saira';
+    font-size: 24px;
+}
+
+.hero-background {
+    color: #bab0cd;
+    font-size: 20px;
+    font-family: 'Saira';
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../img/skill-hold.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+}
+
+.skill-item img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.slide-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slide-item:hover {
+    cursor: pointer;
+}
+
+.slide-item-name {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 20px 0 10px;
+    font-style: italic;
+}
+
+.slide-item-img {
+    /* height: 240px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.slide-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-slide {
+    margin: 40px 0 0;
+}
+
+.hero-body-main {
+    position: relative;
+}
+
+.hero-player {
+    position: absolute;
+    width: 750px;
+    left: -78%;
+}
+
+.nav-new {
+    width: 36px;
+    height: 47px;
+}
+
+.nav-new:hover {
+    cursor: pointer;
+}
+
+.nav-new::after {
+    content: '';
+}
+
+.swiper-button-prev.nav-new {
+    background: url('../img/swiper-prev.png');
+    background-size: 100% 100%;
+}
+
+.swiper-button-next.nav-new {
+    background: url('../img/swiper-next.png');
+    background-size: 100% 100%;
+}
+
+.block-hero .swiper-button-prev {
+    left: 0;
+}
+
+.block-hero .swiper-button-next {
+    right: 0;
+}
+
+/* Play to earn */
+.block-pte {
+    background-image: url('../img/Web-BG/FreeToPlay.jpg');
+    background-size: 100% 100%;
+}
+
+.pte-item-title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Saira';
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.pte-item-desc {
+    color: #bab0cd;
+    font-size: 18px;
+    font-family: 'Saira';
+    text-align: center;
+}
+
+.pte-img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pte-img img {
+    width: 85%;
+}
+
+.pte-img-left {
+    justify-content: flex-start;
+}
+
+.pte-item-title-normal {
+    text-transform: none;
+}
+
+.game-concept-desc .block-title {
+    text-align: left;
+}
+
+.game-concept-desc {
+    padding-right: 40px;
+}
+
+.game-concept-desc .block-desc {
+    color: #bab0cd;
+    font-size: 20px;
+    font-family: 'Saira';
+}
+
+.hero-group {
+    position: relative;
+    min-height: 600px;
+    margin: 0 80px;
+}
+
+.hero-concept {
+    position: absolute;
+}
+
+.game-concept-desc {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-concept1 {
+    top: 50%;
+    transform: translateY(-68%);
+    right: 0;
+}
+
+.hero-concept2 {
+    top: 0;
+    left: 0;
+}
+
+.hero-concept3 {
+    bottom: 0;
+    left: 80px;
+}
+
+/* Block concept */
+.block-game-concept {
+    background-image: url('../img/Web-BG/GameConcept.jpg');
+    background-size: 100% 100%;
+}
+
+.concept-slide-item {
+    overflow: hidden;
+    border-radius: 20px;
+    height: 60vh;
+    position: relative;
+}
+
+.concept-slide-item::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(8, 4, 46, 1) 100%
+    );
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.concept-slide-wrap.swiper-slide-active .concept-slide-item::before {
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.concept-slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Block game mode */
+.block-game-mode {
+    background-image: url('../img/Web-BG/GameMode.jpg');
+    background-size: 100% 100%;
+}
+
+.game-mode-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.game-mode-icon {
+    text-align: center;
+}
+
+.game-mode-icon img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.game-mode-name {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* Tokenomics */
+.block-tokenomics {
+    background-image: url('../img/Web-BG/GameMode.jpg');
+    background-size: 100% 100%;
+}
+
+.block-tokenomics .block-title {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.tokenomics-item {
+    padding: 10px 80px 10px 40px;
+    background-image: url(https://asset.wonderhero.io/static/images/newpage/wrap.png);
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
+.tokenomics-item-name {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.tokenomics-item-desc {
+    font-size: 16px;
+    color: #bab0cd;
+    font-family: 'Saira';
+}
+
+.tokenomics-chart {
+    display: flex;
+    justify-content: center;
+}
+
+.tokenomics-chart img {
+    width: 95%;
+}
+
+/* Schedule */
+.block-schedule {
+    background-image: url('../img/Web-BG/Support.jpg');
+    background-size: 100% 100%;
+}
+
+/* Roadmap */
+.block-roadmap {
+    overflow: hidden;
+    background-image: url('../img/Web-BG/Support.jpg');
+    background-size: 100% 100%;
+}
+
+.roadmap-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.roadmap-date {
+    width: 105px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.roadmap-date .month {
+    font-size: 32px;
+    line-height: 32px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: white;
+}
+
+.roadmap-date .year {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: white;
+    font-style: italic;
+}
+
+.roadmap-date::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -50%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/six.png');
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.roadmap-date .month,
+.roadmap-date .year {
+    z-index: 2;
+}
+
+.roadmap-list {
+    margin-top: 20px;
+}
+
+.roadmap-list li {
+    font-size: 14px;
+    color: #bab0cd;
+    font-family: 'Saira';
+}
+
+.roadmap-content {
+    margin-top: 100px;
+    position: relative;
+}
+
+.roadmap-content-bar {
+    width: 4000px;
+    height: 2px;
+    background: #faf85b;
+    position: absolute;
+    top: 60.5px;
+    left: -50%;
+}
+
+/* Team */
+.block-team {
+    background-image: url('../img/Web-BG/OurTeam.jpg');
+    background-size: 100% 100%;
+}
+
+.team-name {
+    background-image: url(https://asset.wonderhero.io/static/images/newpage/wrap.png);
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+    max-width: 300px;
+    font-size: 20px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.team-ava img {
+    width: 100%;
+}
+
+.team-desc {
+    margin-top: 20px;
+}
+
+.team-desc p {
+    margin: 0;
+    color: #bab0cd;
+    font-family: 'Saira';
+    text-align: center;
+}
+
+/* Invested */
+.block-invested {
+    background-image: url('../img/Web-BG/Support.jpg');
+    background-size: 100% 100%;
+}
+
+.block-invested .block-title {
+    margin-bottom: 60px;
+}
+
+.invested-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.invested-item img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Footer */
+.social-link-list {
+    display: flex;
+}
+
+.social-link {
+    display: block;
+}
+
+.menu-footer-title {
+    font-weight: 900;
+    color: white;
+    font-family: 'Saira';
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.download-group {
+    display: flex;
+}
+
+.dowload-item {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.menu-footer-desc,
+.menu-footer-link {
+    font-size: 16px;
+    color: #bab0cd;
+    font-family: 'Saira';
+}
+
+.menu-footer-desc {
+    margin-bottom: 20px;
+}
+
+.dowload-item img {
+    width: 100%;
+}
+
+.footer-content {
+    padding: 50px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.text-animation span {
+    letter-spacing: 0;
+    /* Clip Background Image */
+    background: url('../img/animated-text-fill.png') repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+/* Animate Background Image */
+
+@keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+#menu-fullpage {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#menu-fullpage::before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    background-color: #ec490d;
+    display: block;
+    position: absolute;
+    left: 11px;
+    top: 0;
+}
+
+#menu-fullpage li a {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins';
+    padding: 0 24px;
+    line-height: 30px;
+    position: relative;
+    opacity: 0.6;
+}
+
+#menu-fullpage li a:hover {
+    color: #ec490d;
+}
+
+#menu-fullpage li.active a {
+    transition: 0.5s ease-in-out;
+    color: #ec490d;
+    font-weight: bold;
+}
+
+.pte-slide-item .row {
+    padding: 0 80px;
+}
+
+footer {
+    background: url('../img/Web-BG/Support.jpg');
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #08042e38;
+    z-index: 1;
+}
+
+footer .fp-tableCell {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-skill-col {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-body {
+    position: relative;
+    z-index: 1;
+}
+
+.game-mode-icon {
+    margin: 30px 0;
+}
+
+@media (min-width: 1440px) {
+    .game-mode-p-r {
+        padding-right: 200px;
+    }
+
+    .game-mode-p-l {
+        padding-left: 200px;
+    }
+}
+
+.social-btn-group {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 0 10px 2px;
+    z-index: 10;
+}
+
+.social-btn-group a {
+    width: 35px;
+}
+
+.box-img-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.social-btn-group a img {
+    width: 100%;
+    height: auto;
+    margin: 7px 5px;
+}
+
+.social-btn-group a:hover img {
+    opacity: 0.7;
+}
+
+.box-img-flex img {
+    width: auto !important;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.y-wrap {
+    display: grid;
+    gap: 10px;
+    color: white;
+}
+
+.chain-table .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: rgba(6, 6, 7, 0.3);
+    -webkit-box-shadow: 0 0 100px 3px #000000;
+    box-shadow: 0 0 100px 3px #000000;
+    width: calc(100% - 35px);
+}
+
+.chain-table .tg td {
+    border: 1px solid #fff;
+}
+
+.chain-table .tg .tg-baqh {
+    text-align: center;
+    vertical-align: top;
+    text-shadow: 1px 1px #0a0a0a;
+    padding: 0 5px;
+}
+
+.chain-table .tg .tg-0lax {
+    text-align: left;
+    vertical-align: top;
+    text-shadow: 1px 1px #050405;
+    padding: 0 5px;
+}
+
+.y-wrap .f-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.w-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: calc(100% - 70px);
+    max-width: fit-content;
+}
+
+.b-wrap {
+    position: relative;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.b-wrap .u-wrap {
+    visibility: hidden;
+    background-color: #0003;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    font-size: 12px;
+}
+
+.b-wrap .u-wrap::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #0003 transparent transparent;
+}
+
+#contract-address {
+    margin-top: 50px;
+}
+
+.mode-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 0;
+    width: 300px;
+}
+
+.mode-logo img {
+    width: 100%;
+}
+
+.table-schedule {
+    color: white;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #0bc6ca6b;
+    color: white;
+}
+
+.table-striped th {
+    font-size: 20px;
+    text-align: center;
+}
+
+.table-striped tr {
+    text-align: center;
+}
+
+.block-team .swiper-button-next.nav-new {
+    right: 10px;
+}
+
+.block-team .swiper-button-prev.nav-new {
+    left: 10px;
+}
+
+.comming-content {
+    height: 100vh;
+    background-image: url('../img/comming-soon-bg.png');
+    background-size: cover;
+    background-position: right center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.comming-content h2 {
+    color: white;
+    z-index: 1;
+    position: relative;
+    font-family: 'Saira';
+    font-size: 40px;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.block-banner .block-content {
+    z-index: 2;
+    position: relative;
+}
+
+#fullpage {
+    overflow: hidden;
+}
+
+.white-paper {
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(44, 35, 35);
+    border-radius: 8px;
+}
+
+.white-paper img {
+    width: 60% !important;
+    height: 60% !important;
+}
+
+#video-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-bg {
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+
+.video-bg.active {
+    opacity: 1;
+    transition: .4s ease-in-out;
+}

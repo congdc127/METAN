@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Saira';
+    src: url('Saira-Bold.eot');
+    src: url('Saira-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Saira-Bold.woff2') format('woff2'),
+        url('Saira-Bold.woff') format('woff'),
+        url('Saira-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saira';
+    src: url('Saira-Medium.eot');
+    src: url('Saira-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Saira-Medium.woff2') format('woff2'),
+        url('Saira-Medium.woff') format('woff'),
+        url('Saira-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

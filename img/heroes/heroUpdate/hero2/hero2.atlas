@@ -1,0 +1,76 @@
+heroes2.png
+size:832,540
+filter:Linear,Linear
+pma:true
+1 1 copy
+bounds:248,24,40,110
+offsets:1,1,43,112
+rotate:90
+1 2 copy
+bounds:798,62,28,137
+offsets:0,0,29,137
+1 3 copy
+bounds:798,343,32,195
+offsets:0,0,33,195
+1 4 copy
+bounds:248,66,36,200
+rotate:90
+1 5 copy
+bounds:499,4,37,94
+offsets:1,1,39,96
+rotate:90
+2 1 copy
+bounds:798,201,32,66
+offsets:2,1,36,68
+2 2 copy
+bounds:798,269,32,72
+offsets:0,0,33,72
+3 1
+bounds:360,2,39,137
+rotate:90
+3 2 copy
+bounds:74,12,78,149
+3 3
+bounds:2,2,70,159
+4 1
+bounds:495,176,106,114
+4 2
+bounds:678,3,40,38
+offsets:1,1,42,40
+4 3
+bounds:2,163,127,155
+rotate:90
+4 4
+bounds:784,7,53,40
+rotate:90
+5 1 copy
+bounds:595,3,38,81
+rotate:90
+5 2 copy
+bounds:154,11,38,89
+offsets:0,1,38,90
+rotate:90
+5 3
+bounds:154,51,92,51
+offsets:1,1,94,53
+6 1
+bounds:159,104,68,314
+offsets:1,2,70,317
+rotate:90
+6 2
+bounds:159,174,116,334
+offsets:4,6,124,352
+rotate:90
+7 2
+bounds:475,43,68,307
+offsets:1,1,70,309
+rotate:90
+Layer 1
+bounds:495,113,279,61
+offsets:1,1,281,63
+fx- chem 1
+bounds:609,185,187,353
+offsets:2,6,190,360
+fx- chem 2
+bounds:2,292,605,246
+offsets:2,1,608,249

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Share Tech';
+    src: url('ShareTech-Regular.eot');
+    src: url('ShareTech-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ShareTech-Regular.woff2') format('woff2'),
+        url('ShareTech-Regular.woff') format('woff'),
+        url('ShareTech-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
